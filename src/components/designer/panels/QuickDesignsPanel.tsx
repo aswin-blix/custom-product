@@ -30,25 +30,28 @@ export function useApplyQuickDesign() {
   const [recent, setRecent] = useState<string[]>([]);
 
   const apply = async (q: QuickDesign) => {
-    const c = getCanvas(pid);
-    if (!c || !product) return;
-    c.getObjects()
-      .filter((o) => o.layerType === "pattern" && o.quickDesignId && o.quickDesignId !== "__bg__")
-      .forEach((o) => c.remove(o));
-    await addPatternLayer(c, {
-      tileSrc: svgToDataUrl(q.tileSvg),
-      tileName: q.tileName,
-      mode: q.mode,
-      tileIn: q.tileIn,
-      quickDesignId: q.id,
-      quickDesignName: q.name,
-    });
+    if (!product) return;
+    // An all-over quick design covers every placement (pattern + background),
+    // matching how the AOP design maker behaves; the active one is selected.
     const targets = applyBgAll ? product.placements.map((p) => p.id) : [pid];
-    targets.forEach((t) => {
-      const tc = getCanvas(t);
-      if (tc) setBackgroundColor(tc, q.bg);
+    for (const t of targets) {
+      const c = getCanvas(t);
+      if (!c) continue;
+      c.getObjects()
+        .filter((o) => o.layerType === "pattern" && o.quickDesignId && o.quickDesignId !== "__bg__")
+        .forEach((o) => c.remove(o));
+      await addPatternLayer(c, {
+        tileSrc: svgToDataUrl(q.tileSvg),
+        tileName: q.tileName,
+        mode: q.mode,
+        tileIn: q.tileIn,
+        quickDesignId: q.id,
+        quickDesignName: q.name,
+      });
+      setBackgroundColor(c, q.bg);
       setBg(t, q.bg);
-    });
+      if (t !== pid) c.discardActiveObject();
+    }
     setRecent((r) => [q.id, ...r.filter((x) => x !== q.id)].slice(0, 6));
     setTool("layers");
   };

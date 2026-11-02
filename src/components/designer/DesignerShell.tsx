@@ -78,15 +78,14 @@ export default function DesignerShell({ product }: { product: ProductDef }) {
           </>
         )}
         <main className="flex min-w-0 flex-1 flex-col bg-[#f5f6f8]">
-          {view === "design" ? (
-            <>
-              <PlacementTabs />
-              <ContextToolbar />
-              <CanvasViewport />
-            </>
-          ) : (
-            <MockupView />
-          )}
+          {/* The design canvases stay mounted while viewing mockups so the
+              Fabric state (and the print files) survive the toggle. */}
+          <div className={`${view === "design" ? "flex" : "hidden"} min-h-0 flex-1 flex-col`}>
+            <PlacementTabs />
+            <ContextToolbar />
+            <CanvasViewport />
+          </div>
+          {view === "mockups" && <MockupView />}
         </main>
       </div>
       <BottomBar />
