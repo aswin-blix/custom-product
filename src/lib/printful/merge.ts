@@ -9,16 +9,18 @@ import type { ProductData } from "./types";
  */
 const SIZE_ORDER = ["2XS", "XXS", "XS", "S", "M", "L", "XL", "2XL", "XXL", "3XL", "XXXL", "4XL", "5XL", "One size"];
 
-/** Apparel sizes in wearing order; dimensional sizes (14″×14″) by area. */
+/** Apparel sizes in wearing order; dimensional sizes (14″×14″) by width, then height. */
 export function bySize(a: string, b: string) {
   const ia = SIZE_ORDER.indexOf(a);
   const ib = SIZE_ORDER.indexOf(b);
   if (ia !== -1 || ib !== -1) return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
-  const area = (s: string) => {
+  const dims = (s: string): [number, number] => {
     const m = s.match(/(\d+(?:\.\d+)?)\D+(\d+(?:\.\d+)?)/);
-    return m ? Number(m[1]) * Number(m[2]) : 0;
+    return m ? [Number(m[1]), Number(m[2])] : [0, 0];
   };
-  return area(a) - area(b) || a.localeCompare(b);
+  const [aw, ah] = dims(a);
+  const [bw, bh] = dims(b);
+  return aw - bw || ah - bh || a.localeCompare(b);
 }
 
 export function mergeProduct(base: ProductDef, data: ProductData | null): ProductDef {
