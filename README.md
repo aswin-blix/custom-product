@@ -1,5 +1,8 @@
 # Custom Product Designer
 
+> Working on the code? Read **[AGENTS.md](AGENTS.md)** first — full architecture,
+> invariants, verification routine and open items for developers and coding agents.
+
 A Next.js + Fabric.js clone of the all-over-print (AOP) **product designer** flow:
 product page → **Start designing** → full-screen design maker → mockups → add to cart.
 
