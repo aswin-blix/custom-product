@@ -53,6 +53,9 @@ export async function getPrint(id: string): Promise<Entry | null> {
 export function publicBaseUrl(req: Request): string | null {
   const env = process.env.PUBLIC_BASE_URL?.replace(/\/$/, "");
   if (env) return env;
-  const origin = new URL(req.url).origin;
+  // behind a tunnel / proxy (ngrok, cloudflared, Vercel) use the forwarded host
+  const fwdHost = req.headers.get("x-forwarded-host");
+  const fwdProto = req.headers.get("x-forwarded-proto") ?? "https";
+  const origin = fwdHost ? `${fwdProto}://${fwdHost}` : new URL(req.url).origin;
   return /localhost|127\.0\.0\.1|\[::1\]/.test(origin) ? null : origin;
 }
