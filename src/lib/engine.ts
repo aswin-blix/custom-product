@@ -678,14 +678,11 @@ export function hasDesign(c: Canvas) {
 }
 
 /** Full-resolution print file (150 DPI) regardless of the on-screen zoom. */
+// NOTE: toDataURL renders objects only (selection controls live on the upper
+// canvas), so we never need to clear the selection — doing so would fire
+// selection events and re-trigger the UI.
 export function exportPrintFile(c: Canvas, format: "png" | "jpeg" = "png") {
-  const active = c.getActiveObject();
-  c.discardActiveObject();
-  c.renderAll();
-  const url = c.toDataURL({ format, multiplier: EXPORT_MULTIPLIER / c.getZoom(), enableRetinaScaling: false });
-  if (active) c.setActiveObject(active);
-  c.requestRenderAll();
-  return url;
+  return c.toDataURL({ format, multiplier: EXPORT_MULTIPLIER / c.getZoom(), enableRetinaScaling: false });
 }
 
 /** Lightweight preview (for mockups + thumbnails). */
@@ -693,11 +690,5 @@ export function exportPreview(c: Canvas, maxPx = 1200) {
   const W = c.width / c.getZoom();
   const H = c.height / c.getZoom();
   const mult = Math.min(maxPx / W, maxPx / H) / c.getZoom();
-  const active = c.getActiveObject();
-  c.discardActiveObject();
-  c.renderAll();
-  const url = c.toDataURL({ format: "png", multiplier: mult, enableRetinaScaling: false });
-  if (active) c.setActiveObject(active);
-  c.requestRenderAll();
-  return url;
+  return c.toDataURL({ format: "png", multiplier: mult, enableRetinaScaling: false });
 }

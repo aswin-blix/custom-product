@@ -47,6 +47,11 @@ function SidePanel() {
   }
 }
 
+if (typeof window !== "undefined" && process.env.NODE_ENV !== "production") {
+  // dev aid: inspect designer state from the console
+  (window as unknown as { __designer: typeof useDesigner }).__designer = useDesigner;
+}
+
 export default function DesignerShell({ product }: { product: ProductDef }) {
   const init = useDesigner((s) => s.init);
   const ready = useDesigner((s) => s.product?.slug === product.slug);

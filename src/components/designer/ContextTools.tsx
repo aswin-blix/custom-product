@@ -31,7 +31,7 @@ export function ContextToolbar() {
   return (
     <div className="mx-6 mb-3 flex items-center gap-1 rounded-md border border-gray-200 bg-white px-3 py-2">
       {tabs.map(({ id, label, icon: Icon }) => (
-        <button key={id} onClick={() => setTool(tool === id ? null : id)} className={`flex items-center gap-2 rounded px-3 py-1.5 text-[13px] font-semibold ${tool === id ? "bg-[#d9ecfa] text-[#1f5fa8]" : "text-gray-800 hover:bg-gray-100"}`}>
+        <button key={id} onClick={() => setTool(id)} className={`flex items-center gap-2 rounded px-3 py-1.5 text-[13px] font-semibold ${tool === id ? "bg-[#d9ecfa] text-[#1f5fa8]" : "text-gray-800 hover:bg-gray-100"}`}>
           <Icon className="h-4 w-4" /> {label}
         </button>
       ))}

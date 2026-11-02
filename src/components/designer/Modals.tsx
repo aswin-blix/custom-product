@@ -94,13 +94,17 @@ export function StitchModal() {
 
 export function CartModal() {
   const open = useDesigner((s) => s.cartModal);
+  // previews are only computed while the modal is mounted (they rasterize every canvas)
+  return open ? <CartModalBody /> : null;
+}
+
+function CartModalBody() {
   const setOpen = useDesigner((s) => s.setCartModal);
   const product = useDesigner((s) => s.product)!;
   const size = useDesigner((s) => s.size);
   const stitch = useDesigner((s) => s.stitch);
   const prints = usePlacementPreviews();
   const [files, setFiles] = useState<Record<string, string>>({});
-  if (!open) return null;
 
   const generate = () => {
     const out: Record<string, string> = {};

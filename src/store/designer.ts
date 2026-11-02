@@ -113,7 +113,7 @@ export const useDesigner = create<DesignerState>((set, get) => ({
   setColor: (color) => set({ color }),
   setStitch: (stitch) => set({ stitch }),
   setPlacement: (activePlacement) => set({ activePlacement, selectedId: null, contextTool: null }),
-  setTool: (tool) => set({ tool, panelOpen: true }),
+  setTool: (tool) => set({ tool, panelOpen: true, contextTool: null }),
   setContextTool: (contextTool) => set({ contextTool }),
   setView: (view) => set({ view }),
   setSelected: (selectedId) => set({ selectedId, contextTool: selectedId ? get().contextTool : null }),
