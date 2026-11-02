@@ -166,8 +166,15 @@ export function createCanvas(el: HTMLCanvasElement) {
   return c;
 }
 
-export function fitCanvas(c: Canvas, W: number, H: number, boxW: number, boxH: number, pad = 24) {
-  const z = Math.min((boxW - pad * 2) / W, (boxH - pad * 2) / H, 1.2);
+/**
+ * Fit the canvas (W×H logical px) into the viewport. When a `frame` is given
+ * (e.g. the full template image that surrounds the print area) the zoom is
+ * computed so the frame fits instead.
+ */
+export function fitCanvas(c: Canvas, W: number, H: number, boxW: number, boxH: number, pad = 24, frame?: { w: number; h: number }) {
+  const fw = frame?.w ?? W;
+  const fh = frame?.h ?? H;
+  const z = Math.min((boxW - pad * 2) / fw, (boxH - pad * 2) / fh, 1.2);
   c.setDimensions({ width: Math.round(W * z), height: Math.round(H * z) });
   c.setZoom(z);
   c.requestRenderAll();

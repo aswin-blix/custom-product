@@ -7,7 +7,7 @@ interface Props {
   product: ProductDef;
   size: string;
   view: "front" | "back";
-  stitch: "White" | "Black" | null;
+  stitch: string | null;
   prints: Record<string, PrintInput>;
   background?: string;
   className?: string;

@@ -4,6 +4,7 @@ import type { Canvas, FabricObject } from "fabric";
 import { Upload as UploadIcon, LayoutGrid } from "lucide-react";
 import { useDesigner } from "@/store/designer";
 import { PX_PER_INCH, type PlacementDef } from "@/lib/catalog";
+import type { TemplateInfo } from "@/lib/printful/types";
 import { panelPath, safeAreaTransform } from "@/lib/templates";
 import {
   createCanvas,
@@ -25,11 +26,15 @@ interface Props {
   placement: PlacementDef;
   widthIn: number;
   heightIn: number;
+  /** Printful design template (outline + safe area) for this placement, if available */
+  template: TemplateInfo | null;
+  /** blank product photo shown before any design exists */
+  blankImage: string | null;
   box: { w: number; h: number };
   active: boolean;
 }
 
-export default function DesignCanvas({ placement, widthIn, heightIn, box, active }: Props) {
+export default function DesignCanvas({ placement, widthIn, heightIn, template, blankImage, box, active }: Props) {
   const elRef = useRef<HTMLCanvasElement>(null);
   const canvasRef = useRef<Canvas | null>(null);
   const [zoom, setZoomLocal] = useState(1);
@@ -47,6 +52,12 @@ export default function DesignCanvas({ placement, widthIn, heightIn, box, active
   const W = widthIn * PX_PER_INCH;
   const H = heightIn * PX_PER_INCH;
   const pid = placement.id;
+
+  // template space → logical canvas space
+  const s = template ? W / template.printAreaWidth : 1;
+  const frame = template ? { w: template.templateWidth * s, h: template.templateHeight * s } : { w: W, h: H };
+  const offX = template ? template.printAreaLeft * s : 0;
+  const offY = template ? template.printAreaTop * s : 0;
 
   /* create / destroy the Fabric canvas once */
   useEffect(() => {
@@ -70,12 +81,9 @@ export default function DesignCanvas({ placement, widthIn, heightIn, box, active
       const a = c.getActiveObject() as FabricObject | undefined;
       setSelected(a?.layerId ?? null);
       if (a) {
-        const s = useDesigner.getState();
-        if (!s.contextTool) {
-          /* keep whatever the user had; default toolbar appears automatically */
-        }
+        const st = useDesigner.getState();
         if (a.layerType === "pattern") setContextTool("pattern");
-        else if (s.contextTool === "pattern") setContextTool(null);
+        else if (st.contextTool === "pattern") setContextTool(null);
       }
       bump();
     };
@@ -103,13 +111,14 @@ export default function DesignCanvas({ placement, widthIn, heightIn, box, active
   useEffect(() => {
     const c = canvasRef.current;
     if (!c || box.w === 0 || box.h === 0) return;
-    const z = fitCanvas(c, W, H, box.w, box.h);
+    const z = fitCanvas(c, W, H, box.w, box.h, 24, frame);
     c.getObjects()
       .filter((o) => o.layerType === "pattern")
       .forEach((o) => o.set({ width: W, height: H, left: 0, top: 0 }));
     c.requestRenderAll();
     setZoomLocal(z);
-  }, [W, H, box.w, box.h, tick]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [W, H, box.w, box.h, tick, frame.w, frame.h]);
 
   /* keyboard shortcuts for the active placement */
   useEffect(() => {
@@ -151,6 +160,27 @@ export default function DesignCanvas({ placement, widthIn, heightIn, box, active
   const d = panelPath(placement.shape, W, H, placement.side);
   const cssW = Math.round(W * zoom);
   const cssH = Math.round(H * zoom);
+  const frameW = Math.round(frame.w * zoom);
+  const frameH = Math.round(frame.h * zoom);
+  // Printful shows the blank product photo until the first layer is added
+  const showBlankPhoto = empty && !dragOver && !!blankImage;
+
+  const dropZone = (
+    <button
+      type="button"
+      onClick={() => openPicker(pid)}
+      className={`absolute left-1/2 top-1/2 flex h-60 w-60 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-2 rounded-full border-4 text-[15px] font-semibold text-[#1f5fa8] transition ${
+        dragOver ? "border-[#1f5fa8] bg-[#cfe6fb]" : "border-[#e7edf3] bg-[#d9ecfa] hover:bg-[#cde5f8]"
+      }`}
+    >
+      <UploadIcon className="h-5 w-5" />
+      <span className="text-center leading-tight">
+        Upload or drop
+        <br />
+        your design here
+      </span>
+    </button>
+  );
 
   return (
     <div
@@ -166,62 +196,46 @@ export default function DesignCanvas({ placement, widthIn, heightIn, box, active
         if (e.dataTransfer.files?.length) void importFiles(Array.from(e.dataTransfer.files), pid);
       }}
     >
-      <div className="relative" style={{ width: cssW, height: cssH }}>
-        <canvas ref={elRef} />
-        {/* template overlay: outside-of-panel mask, panel outline, safe area + labels */}
-        {showGuides && (
-          <svg
-            className="pointer-events-none absolute inset-0"
-            width={cssW}
-            height={cssH}
-            viewBox={`0 0 ${W} ${H}`}
-            preserveAspectRatio="none"
-          >
-            <path d={`M0 0 H${W} V${H} H0 Z ${d}`} fill="#ffffff" fillOpacity={0.62} fillRule="evenodd" />
-            <path d={d} fill="none" stroke="#2b2b2b" strokeWidth={1} vectorEffect="non-scaling-stroke" />
-            <path
-              d={d}
-              fill="none"
-              stroke="#4b4b4b"
-              strokeWidth={1}
-              strokeDasharray="6 5"
-              vectorEffect="non-scaling-stroke"
-              transform={safeAreaTransform(W, H, 0.9, PX_PER_INCH)}
-            />
-            {placement.shape === "body" && (
+      {/* blank product photo (shown on top while the placement is empty) */}
+      {showBlankPhoto && (
+        <div className="absolute inset-0 z-10 flex items-center justify-center bg-[#fbfbfc]">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={blankImage!} alt="" className="max-h-full max-w-full object-contain" draggable={false} />
+          {dropZone}
+        </div>
+      )}
+
+      <div className="relative" style={{ width: frameW, height: frameH }}>
+        {/* the print file canvas, positioned inside the template's print area */}
+        <div className="absolute" style={{ left: Math.round(offX * zoom), top: Math.round(offY * zoom), width: cssW, height: cssH }}>
+          <canvas ref={elRef} />
+          {/* fallback guides (generated geometry) when no Printful template exists */}
+          {!template && showGuides && (
+            <svg className="pointer-events-none absolute inset-0" width={cssW} height={cssH} viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none">
+              <path d={`M0 0 H${W} V${H} H0 Z ${d}`} fill="#ffffff" fillOpacity={0.62} fillRule="evenodd" />
+              <path d={d} fill="none" stroke="#2b2b2b" strokeWidth={1} vectorEffect="non-scaling-stroke" />
+              <path d={d} fill="none" stroke="#4b4b4b" strokeWidth={1} strokeDasharray="6 5" vectorEffect="non-scaling-stroke" transform={safeAreaTransform(W, H, 0.9, PX_PER_INCH)} />
               <g fontSize={12 / zoom} fill="#444" fontFamily="system-ui, sans-serif">
-                <line x1={W * 0.02} y1={H * 0.06} x2={W * 0.32} y2={H * 0.06} stroke="#444" strokeWidth={1} vectorEffect="non-scaling-stroke" />
-                <text x={W * 0.02} y={H * 0.06 - 4 / zoom}>Collar</text>
+                <line x1={W * 0.02} y1={H * 0.52} x2={W * 0.14} y2={H * 0.52} stroke="#444" strokeWidth={1} vectorEffect="non-scaling-stroke" />
+                <text x={W * 0.02} y={H * 0.52 - 4 / zoom}>
+                  Safe Print Area
+                </text>
               </g>
-            )}
-            <g fontSize={12 / zoom} fill="#444" fontFamily="system-ui, sans-serif">
-              <line x1={W * 0.02} y1={H * 0.52} x2={W * 0.14} y2={H * 0.52} stroke="#444" strokeWidth={1} vectorEffect="non-scaling-stroke" />
-              <text x={W * 0.02} y={H * 0.52 - 4 / zoom}>Safe Print Area</text>
-            </g>
-          </svg>
-        )}
-        {(empty || dragOver) && (
-          <button
-            type="button"
-            onClick={() => openPicker(pid)}
-            className={`absolute left-1/2 top-1/2 flex h-60 w-60 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-2 rounded-full border-4 text-[15px] font-semibold text-[#1f5fa8] transition ${
-              dragOver ? "border-[#1f5fa8] bg-[#cfe6fb]" : "border-[#e7edf3] bg-[#d9ecfa] hover:bg-[#cde5f8]"
-            }`}
-          >
-            <UploadIcon className="h-5 w-5" />
-            <span className="text-center leading-tight">
-              Upload or drop
-              <br />
-              your design here
-            </span>
-          </button>
+            </svg>
+          )}
+          {(empty || dragOver) && !showBlankPhoto && dropZone}
+        </div>
+        {/* Printful design template overlay (transparent PNG with outline, safe area and labels) */}
+        {template && showGuides && (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img src={template.imageUrl} alt="" crossOrigin="anonymous" draggable={false} className="pointer-events-none absolute inset-0 select-none" style={{ width: frameW, height: frameH }} />
         )}
       </div>
       <button
         type="button"
         title={showGuides ? "Hide template guides" : "Show template guides"}
         onClick={() => setShowGuides((v) => !v)}
-        className={`absolute right-3 top-3 rounded-md border bg-white p-2 shadow-sm hover:bg-gray-50 ${showGuides ? "border-gray-300 text-gray-800" : "border-gray-200 text-gray-400"}`}
+        className={`absolute right-3 top-3 z-20 rounded-md border bg-white p-2 shadow-sm hover:bg-gray-50 ${showGuides ? "border-gray-300 text-gray-800" : "border-gray-200 text-gray-400"}`}
       >
         <LayoutGrid className="h-4 w-4" />
       </button>

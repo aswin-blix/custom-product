@@ -5,7 +5,8 @@ import { placementDims, type ProductDef } from "@/lib/catalog";
 export type Tool = "product" | "layers" | "uploads" | "text" | "clipart" | "quick" | "premium" | "fill";
 export type ContextTool = "transform" | "position" | "pattern" | "text" | null;
 export type View = "design" | "mockups";
-export type Stitch = "White" | "Black";
+/** stitch / zipper option label as returned by the catalog (e.g. White, Black, Clear) */
+export type Stitch = string;
 
 export interface Upload {
   id: string;
@@ -155,7 +156,7 @@ export const useDesigner = create<DesignerState>((set, get) => ({
     const { product, size, activePlacement } = get();
     if (!product) return { widthIn: 10, heightIn: 10 };
     const placement = product.placements.find((p) => p.id === (pid ?? activePlacement)) ?? product.placements[0];
-    return placementDims(product, placement, size);
+    return placementDims(product, placement, size, get().color);
   },
 }));
 

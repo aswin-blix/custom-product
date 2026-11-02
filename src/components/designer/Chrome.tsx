@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { Undo2, Redo2, X, ShoppingCart, Info, Shirt, Layers, Upload, Type, Smile, Wand2, Crown, PaintBucket, ChevronLeft, ChevronRight } from "lucide-react";
 import { useDesigner, canRedo, canUndo, type Tool } from "@/store/designer";
-import { formatPrice } from "@/lib/catalog";
+import { formatPrice, priceFor } from "@/lib/catalog";
 import { useUndoRedo } from "./hooks";
 import { allCanvases, hasDesign } from "@/lib/engine";
 
@@ -105,6 +105,8 @@ export function PanelToggle() {
 
 export function BottomBar() {
   const product = useDesigner((s) => s.product)!;
+  const size = useDesigner((s) => s.size);
+  const color = useDesigner((s) => s.color);
   const tick = useDesigner((s) => s.tick);
   const setCartModal = useDesigner((s) => s.setCartModal);
   const designed = allCanvases().some(([, c]) => hasDesign(c));
@@ -113,7 +115,7 @@ export function BottomBar() {
     <footer className="flex h-16 items-center justify-end gap-3 border-t border-gray-200 bg-white px-6">
       <div className="flex items-center gap-2 rounded-md bg-gray-100 px-4 py-2.5 text-[15px] font-bold text-gray-900">
         <ShoppingCart className="h-4 w-4 text-gray-500" />
-        {formatPrice(product.price)}
+        {formatPrice(priceFor(product, size, color))}
         <Info className="h-3.5 w-3.5 text-gray-400" />
       </div>
       <button

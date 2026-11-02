@@ -5,8 +5,9 @@ import { useDesigner } from "@/store/designer";
 import { StitchSwatch } from "./panels/ProductPanel";
 import { usePlacementPreviews } from "./hooks";
 import { exportPrintFile, getCanvas, hasDesign } from "@/lib/engine";
-import { EXPORT_DPI, formatPrice, placementDims } from "@/lib/catalog";
+import { EXPORT_DPI, formatPrice, placementDims, placementTemplate, priceFor, variantFor } from "@/lib/catalog";
 import MockupCanvas from "./MockupCanvas";
+import FlatMockupCanvas from "./FlatMockupCanvas";
 
 function Frame({ title, onClose, children, width = "max-w-xl" }: { title: string; onClose: () => void; children: React.ReactNode; width?: string }) {
   return (
@@ -51,7 +52,7 @@ export function StitchModal() {
   const product = useDesigner((s) => s.product)!;
   const setStitch = useDesigner((s) => s.setStitch);
   const setView = useDesigner((s) => s.setView);
-  const [pick, setPick] = useState<"White" | "Black" | null>(null);
+  const [pick, setPick] = useState<string | null>(null);
   if (!open || !product.stitchColors) return null;
   return (
     <Frame title="Select a stitch color" onClose={() => setOpen(false)} width="max-w-md">
@@ -115,30 +116,39 @@ function CartModalBody() {
     setFiles(out);
   };
 
+  const variant = variantFor(product, size);
+  const frontTemplate = placementTemplate(product, product.placements[0], size);
+  // Shape of a Printful order item: catalog variant + one print file per placement.
   const payload = {
     product: product.slug,
-    variant: { size, stitch: stitch ?? null },
-    price: product.price,
-    placements: product.placements
+    catalog_product_id: product.printfulId,
+    variant_id: variant?.id ?? null,
+    options: stitch ? [{ id: "stitch_color", value: stitch.toLowerCase() }] : [],
+    retail_price: priceFor(product, size),
+    files: product.placements
       .filter((p) => {
         const c = getCanvas(p.id);
         return c && hasDesign(c);
       })
       .map((p) => {
         const d = placementDims(product, p, size);
-        return { placement: p.id, print_width_px: d.widthIn * EXPORT_DPI, print_height_px: d.heightIn * EXPORT_DPI, dpi: EXPORT_DPI };
+        return { type: p.id, printfile_id: variant?.placements[p.id]?.printfileId ?? null, width_px: Math.round(d.widthIn * EXPORT_DPI), height_px: Math.round(d.heightIn * EXPORT_DPI), dpi: EXPORT_DPI, url: "<hosted print file>" };
       }),
   };
 
   return (
     <Frame title="Added to cart" onClose={() => setOpen(false)} width="max-w-3xl">
       <div className="grid grid-cols-[220px_1fr] gap-5 px-5 py-4">
-        <MockupCanvas product={product} size={size} view="front" stitch={stitch} prints={prints} className="w-full rounded-md" />
+        {frontTemplate ? (
+          <FlatMockupCanvas template={frontTemplate} print={prints[product.placements[0].id]?.dataUrl ?? null} className="w-full rounded-md" />
+        ) : (
+          <MockupCanvas product={product} size={size} view="front" stitch={stitch} prints={prints} className="w-full rounded-md" />
+        )}
         <div className="min-w-0">
           <div className="text-[15px] font-semibold text-gray-900">{product.name}</div>
           <div className="mt-1 text-[13px] text-gray-600">
             Size {size}
-            {stitch ? ` · ${stitch} stitch` : ""} · {formatPrice(product.price)}
+            {stitch ? ` · ${stitch} stitch` : ""} · {formatPrice(priceFor(product, size))}
           </div>
           <div className="mt-4 text-[12px] font-semibold text-gray-700">Print files ({EXPORT_DPI} DPI)</div>
           <div className="mt-2 grid grid-cols-4 gap-2">

@@ -15,6 +15,34 @@ npm run build      # production build (all routes prerender)
 npm run lint
 ```
 
+## Printful integration (live catalog, templates, photos, mockups)
+
+Create `.env.local` in the project root:
+
+```
+PRINTFUL_API_KEY=...        # Printful dashboard → Settings → Stores → API
+PUBLIC_BASE_URL=https://…   # optional: a public origin (e.g. ngrok) so the Mockup Generator can fetch print files
+```
+
+With a key configured the app pulls, through Printful's official API:
+
+| Data | Endpoint | Used for |
+|---|---|---|
+| Product, variants, prices, photos | `GET /products/{id}` | product page gallery, sizes, per-size price |
+| Print-file sizes per placement | `GET /mockup-generator/printfiles/{id}` | canvas dimensions, 150 DPI export size |
+| Design templates (outline, safe area, labels) | `GET /mockup-generator/templates/{id}` | canvas overlay — the same template images the design maker shows |
+| Blank placement images, mockup styles | `GET /v2/catalog-products/{id}/images`, `/mockup-styles` | placement sizes in inches |
+| Photo mockups | `POST /mockup-generator/create-task/{id}` + polling | Mockups view (needs `PUBLIC_BASE_URL`) |
+
+Responses are cached on disk in `.cache/printful` for 24 h and the pages revalidate hourly.
+Without a key (or if the API is unreachable) everything falls back to the built-in geometry and generated mockups.
+
+The Mockup Generator only accepts URLs, so print files are hosted temporarily at
+`/api/prints/{id}`. On localhost without `PUBLIC_BASE_URL` the Mockups view shows template-based
+previews instead and explains why.
+
+Catalog IDs: rash guard 301 · pajama top 827 · basic pillow 83 · oversized sweatshirt 1590 · boxy football jersey 1367 · minimalist backpack 389.
+
 ## Routes
 
 | Route | What |

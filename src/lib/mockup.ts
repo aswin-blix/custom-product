@@ -11,7 +11,7 @@ export interface MockupOptions {
   product: ProductDef;
   size: string;
   view: "front" | "back";
-  stitch: "White" | "Black" | null;
+  stitch: string | null;
   prints: Record<string, PrintInput>;
   background?: string;
 }
@@ -139,7 +139,7 @@ export async function renderMockup(canvas: HTMLCanvasElement, opts: MockupOption
     ctx.restore();
   }
 
-  const stitch = opts.stitch === "Black" ? "#1a1a1a" : "#ffffff";
+  const stitch = opts.stitch && /white|clear/i.test(opts.stitch) ? "#ffffff" : "#1a1a1a";
 
   for (const p of panels) {
     const path = new Path2D();

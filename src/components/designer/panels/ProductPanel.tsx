@@ -2,8 +2,8 @@
 import { Star, Info } from "lucide-react";
 import { useDesigner } from "@/store/designer";
 
-export function StitchSwatch({ color }: { color: "White" | "Black" }) {
-  const stroke = color === "White" ? "#ffffff" : "#111111";
+export function StitchSwatch({ color }: { color: string }) {
+  const stroke = /white|clear/i.test(color) ? "#ffffff" : "#111111";
   return (
     <svg width="28" height="28" viewBox="0 0 28 28" className="rounded bg-gray-200">
       <g stroke={stroke} strokeWidth="2.2" strokeLinecap="round">

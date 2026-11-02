@@ -1,5 +1,9 @@
 "use client";
 import { useMemo, useState, useSyncExternalStore } from "react";
+import Link from "next/link";
+import { Star, ChevronDown, Search } from "lucide-react";
+import { formatPrice, priceFor, type ProductDef } from "@/lib/catalog";
+import MockupCanvas from "@/components/designer/MockupCanvas";
 
 let deliveryCache: string | null = null;
 function deliveryWindow() {
@@ -12,10 +16,6 @@ function deliveryWindow() {
   deliveryCache = `${f(a)}–${b.getDate()}`;
   return deliveryCache;
 }
-import Link from "next/link";
-import { Star, ChevronDown, Search } from "lucide-react";
-import { formatPrice, type ProductDef } from "@/lib/catalog";
-import MockupCanvas from "@/components/designer/MockupCanvas";
 
 export function SiteHeader() {
   return (
@@ -53,13 +53,15 @@ export function SiteHeader() {
 export default function ProductPage({ product }: { product: ProductDef }) {
   const [size, setSize] = useState(product.sizes[0]);
   const [view, setView] = useState<"front" | "back">("front");
+  const gallery = product.gallery ?? [];
+  const [photo, setPhoto] = useState(0);
   const blank = useMemo(() => Object.fromEntries(product.placements.map((p) => [p.id, { dataUrl: null }])), [product]);
-  // client-only value (depends on "now"); empty on the server so the page prerenders
   const delivery = useSyncExternalStore(
     () => () => {},
     () => deliveryWindow(),
     () => "",
   );
+  const price = priceFor(product, size);
 
   return (
     <div className="min-h-screen bg-white">
@@ -75,16 +77,35 @@ export default function ProductPage({ product }: { product: ProductDef }) {
         </nav>
 
         <div className="grid grid-cols-[72px_1fr_440px] gap-6">
-          <div className="flex flex-col gap-3">
-            {(["front", "back"] as const).map((v) => (
-              <button key={v} onClick={() => setView(v)} className={`overflow-hidden rounded-md border ${view === v ? "border-gray-900" : "border-gray-200"}`}>
-                <MockupCanvas product={product} size={size} view={v} stitch="White" prints={blank} className="w-full" />
-              </button>
-            ))}
-          </div>
-          <div className="overflow-hidden rounded-md bg-[#f3f4f6]">
-            <MockupCanvas product={product} size={size} view={view} stitch="White" prints={blank} className="w-full" />
-          </div>
+          {gallery.length > 0 ? (
+            <>
+              <div className="flex flex-col gap-3">
+                {gallery.map((src, i) => (
+                  <button key={src} onClick={() => setPhoto(i)} className={`overflow-hidden rounded-md border bg-[#f3f4f6] ${photo === i ? "border-gray-900" : "border-gray-200"}`}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img src={src} alt="" className="aspect-square w-full object-cover" />
+                  </button>
+                ))}
+              </div>
+              <div className="overflow-hidden rounded-md bg-[#f3f4f6]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={gallery[photo] ?? gallery[0]} alt={product.name} className="w-full object-contain" />
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="flex flex-col gap-3">
+                {(["front", "back"] as const).map((v) => (
+                  <button key={v} onClick={() => setView(v)} className={`overflow-hidden rounded-md border ${view === v ? "border-gray-900" : "border-gray-200"}`}>
+                    <MockupCanvas product={product} size={size} view={v} stitch="White" prints={blank} className="w-full" />
+                  </button>
+                ))}
+              </div>
+              <div className="overflow-hidden rounded-md bg-[#f3f4f6]">
+                <MockupCanvas product={product} size={size} view={view} stitch="White" prints={blank} className="w-full" />
+              </div>
+            </>
+          )}
           <div>
             <h1 className="text-[20px] font-semibold text-gray-900">{product.name}</h1>
             <div className="mt-2 flex items-center gap-2 text-[13px]">
@@ -122,7 +143,7 @@ export default function ProductPage({ product }: { product: ProductDef }) {
                 <div className="text-[12px] font-semibold text-gray-700">
                   Price <span className="text-red-500">*</span>
                 </div>
-                <div className="mt-5 text-[22px] font-bold text-gray-900">{formatPrice(product.price)}</div>
+                <div className="mt-5 text-[22px] font-bold text-gray-900">{formatPrice(price)}</div>
                 <div className="text-[12px] text-gray-600">Print included</div>
               </div>
               <div className="rounded-md bg-gray-100 p-4">
