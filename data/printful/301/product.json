@@ -1,0 +1,333 @@
+{
+ "code": 200,
+ "result": {
+  "product": {
+   "id": 301,
+   "main_category_id": 27,
+   "type": "CUT-SEW",
+   "description": "Don’t let sunburn, wind, sand, or other elements ruin your day! This smooth and versatile long-sleeve rash guard will protect you while you have fun doing sports. It is slim-fitted with flat ergonomic seams, and a bit longer than your casual tee for extra comfort and protection.\n\n• 78% polyester, 22% elastane for fulfillment in the US\n• 84% polyester, 16% elastane for fulfillment in EU\n• Fabric weight: 8.56 oz./yd.² (290 g/m²) in the US\n• Fabric weight: 6.78 oz./yd.² (230 g/m²) in EU\n• Very soft four-way stretch fabric that stretches and recovers on the cross and lengthwise grains\n• Comfortable longer body and sleeves\n• Flat seam and coverstitch\n• Blank product components sourced from Mexico and China\n\nDisclaimer: To make your rash guard last longer, thoroughly rinse it off after each use and get rid of any chlorine/salt residue. This product runs small and is quite fitted. For a more comfortable fit, we suggest choosing one size up.",
+   "type_name": "All-Over Print Men's Rash Guard",
+   "title": "All-Over Print Men's Rash Guard",
+   "brand": null,
+   "model": "All-Over Print Men's Rash Guard",
+   "image": "/printful/assets/cbf2c9271aaba551.jpg",
+   "variant_count": 7,
+   "currency": "USD",
+   "options": [
+    {
+     "id": "stitch_color",
+     "title": "Stitch color",
+     "type": "radio",
+     "values": {
+      "white": "White",
+      "black": "Black"
+     },
+     "additional_price": null,
+     "additional_price_breakdown": []
+    },
+    {
+     "id": "notes",
+     "title": "Printing notes",
+     "type": "text",
+     "values": null,
+     "additional_price": null,
+     "additional_price_breakdown": []
+    },
+    {
+     "id": "license_type",
+     "title": "License type",
+     "type": "multi_select",
+     "values": {
+      "CLC": "Collegiate Licensing Company",
+      "AFFINITY": "Affinity",
+      "BR": "BR",
+      "EX": "EX",
+      "NCAA": "NCAA",
+      "FAN": "Fan",
+      "BCOMPLY": "BrandComply",
+      "TAG": "Tag",
+      "DLH": "DLH",
+      "CORE81": "Core81"
+     },
+     "additional_price": null,
+     "additional_price_breakdown": []
+    }
+   ],
+   "dimensions": null,
+   "is_discontinued": false,
+   "avg_fulfillment_time": null,
+   "techniques": [
+    {
+     "key": "CUT-SEW",
+     "display_name": "All-over synthetic",
+     "is_default": true
+    }
+   ],
+   "files": [
+    {
+     "id": "default",
+     "type": "front",
+     "title": "Front print",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "back",
+     "type": "back",
+     "title": "Back print",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "sleeve_left",
+     "type": "sleeve_left",
+     "title": "Left sleeve",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "sleeve_right",
+     "type": "sleeve_right",
+     "title": "Right sleeve",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "preview",
+     "type": "mockup",
+     "title": "Mockup",
+     "additional_price": null,
+     "options": []
+    }
+   ],
+   "origin_country": null
+  },
+  "variants": [
+   {
+    "id": 9331,
+    "product_id": 301,
+    "name": "All-Over Print Men's Rash Guard (2XL)",
+    "size": "2XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/a53ea04bd9fabbb5.jpg",
+    "price": "38.95",
+    "in_stock": true,
+    "availability_regions": {
+     "EU": "Europe",
+     "EU_LV": "Latvia",
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "EU",
+      "status": "in_stock"
+     },
+     {
+      "region": "EU_LV",
+      "status": "in_stock"
+     },
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 9332,
+    "product_id": 301,
+    "name": "All-Over Print Men's Rash Guard (3XL)",
+    "size": "3XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/9566233e42bab7dc.jpg",
+    "price": "40.50",
+    "in_stock": true,
+    "availability_regions": {
+     "EU": "Europe",
+     "EU_LV": "Latvia",
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "EU",
+      "status": "in_stock"
+     },
+     {
+      "region": "EU_LV",
+      "status": "in_stock"
+     },
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 9329,
+    "product_id": 301,
+    "name": "All-Over Print Men's Rash Guard (L)",
+    "size": "L",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/6ebcd4240dcba1b3.jpg",
+    "price": "37.50",
+    "in_stock": true,
+    "availability_regions": {
+     "EU": "Europe",
+     "EU_LV": "Latvia",
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "EU",
+      "status": "in_stock"
+     },
+     {
+      "region": "EU_LV",
+      "status": "in_stock"
+     },
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 9328,
+    "product_id": 301,
+    "name": "All-Over Print Men's Rash Guard (M)",
+    "size": "M",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/27fc9443a6bfa5a2.jpg",
+    "price": "37.50",
+    "in_stock": true,
+    "availability_regions": {
+     "EU": "Europe",
+     "EU_LV": "Latvia",
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "EU",
+      "status": "in_stock"
+     },
+     {
+      "region": "EU_LV",
+      "status": "in_stock"
+     },
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 9327,
+    "product_id": 301,
+    "name": "All-Over Print Men's Rash Guard (S)",
+    "size": "S",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/776ddd95572d38c0.jpg",
+    "price": "37.50",
+    "in_stock": true,
+    "availability_regions": {
+     "EU": "Europe",
+     "EU_LV": "Latvia",
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "EU",
+      "status": "in_stock"
+     },
+     {
+      "region": "EU_LV",
+      "status": "in_stock"
+     },
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 9330,
+    "product_id": 301,
+    "name": "All-Over Print Men's Rash Guard (XL)",
+    "size": "XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/b120f2afa1f74149.jpg",
+    "price": "37.50",
+    "in_stock": true,
+    "availability_regions": {
+     "EU": "Europe",
+     "EU_LV": "Latvia",
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "EU",
+      "status": "in_stock"
+     },
+     {
+      "region": "EU_LV",
+      "status": "in_stock"
+     },
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 9326,
+    "product_id": 301,
+    "name": "All-Over Print Men's Rash Guard (XS)",
+    "size": "XS",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/99399fc139d445dc.jpg",
+    "price": "37.50",
+    "in_stock": true,
+    "availability_regions": {
+     "EU": "Europe",
+     "EU_LV": "Latvia",
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "EU",
+      "status": "in_stock"
+     },
+     {
+      "region": "EU_LV",
+      "status": "in_stock"
+     },
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   }
+  ]
+ },
+ "extra": []
+}

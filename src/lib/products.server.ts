@@ -1,16 +1,20 @@
 import "server-only";
 import { cacheLife } from "next/cache";
 import { PRODUCTS, getProduct, type ProductDef } from "./catalog";
-import { getProductData, hasPrintfulKey } from "./printful/server";
+import { getProductData, hasPrintfulKey, hasSnapshot } from "./printful/server";
 import { mergeProduct } from "./printful/merge";
 
-/** Static definition enriched with live Printful data when a key is configured. */
+/**
+ * Static definition enriched with catalog data: the offline snapshot in
+ * data/printful/ when present, otherwise the live API (needs a key), otherwise
+ * the built-in definition.
+ */
 export async function loadProduct(slug: string): Promise<ProductDef | undefined> {
   "use cache";
   cacheLife("hours");
   const base = getProduct(slug);
   if (!base) return undefined;
-  if (!hasPrintfulKey()) return base;
+  if (!(await hasSnapshot(base.printfulId)) && !hasPrintfulKey()) return base;
   try {
     return mergeProduct(base, await getProductData(base.printfulId));
   } catch (e) {

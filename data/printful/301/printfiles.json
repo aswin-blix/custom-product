@@ -1,0 +1,108 @@
+{
+ "code": 200,
+ "result": {
+  "product_id": 301,
+  "available_placements": {
+   "front": "Front print",
+   "back": "Back print",
+   "sleeve_left": "Left sleeve",
+   "sleeve_right": "Right sleeve"
+  },
+  "printfiles": [
+   {
+    "printfile_id": 94,
+    "width": 4200,
+    "height": 5400,
+    "dpi": 150,
+    "fill_mode": "cover",
+    "can_rotate": false
+   }
+  ],
+  "variant_printfiles": [
+   {
+    "variant_id": 9326,
+    "placements": {
+     "front": 94,
+     "back": 94,
+     "sleeve_left": 94,
+     "sleeve_right": 94
+    }
+   },
+   {
+    "variant_id": 9327,
+    "placements": {
+     "front": 94,
+     "back": 94,
+     "sleeve_left": 94,
+     "sleeve_right": 94
+    }
+   },
+   {
+    "variant_id": 9328,
+    "placements": {
+     "front": 94,
+     "back": 94,
+     "sleeve_left": 94,
+     "sleeve_right": 94
+    }
+   },
+   {
+    "variant_id": 9329,
+    "placements": {
+     "front": 94,
+     "back": 94,
+     "sleeve_left": 94,
+     "sleeve_right": 94
+    }
+   },
+   {
+    "variant_id": 9330,
+    "placements": {
+     "front": 94,
+     "back": 94,
+     "sleeve_left": 94,
+     "sleeve_right": 94
+    }
+   },
+   {
+    "variant_id": 9331,
+    "placements": {
+     "front": 94,
+     "back": 94,
+     "sleeve_left": 94,
+     "sleeve_right": 94
+    }
+   },
+   {
+    "variant_id": 9332,
+    "placements": {
+     "front": 94,
+     "back": 94,
+     "sleeve_left": 94,
+     "sleeve_right": 94
+    }
+   }
+  ],
+  "option_groups": [
+   "Default",
+   "Flat",
+   "Flat 2",
+   "Flat Lifestyle",
+   "Lifestyle",
+   "Lifestyle 2",
+   "Men's 2",
+   "Men's 3",
+   "On Hanger",
+   "On Model"
+  ],
+  "options": [
+   "Back",
+   "Front",
+   "Left",
+   "Left Sleeve",
+   "Right",
+   "Right Sleeve"
+  ]
+ },
+ "extra": []
+}

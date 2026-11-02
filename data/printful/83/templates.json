@@ -1,0 +1,249 @@
+{
+ "code": 200,
+ "result": {
+  "version": 100,
+  "variant_mapping": [
+   {
+    "variant_id": 49853,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1138355
+     },
+     {
+      "placement": "back",
+      "template_id": 1138354
+     }
+    ]
+   },
+   {
+    "variant_id": 49854,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1138358
+     },
+     {
+      "placement": "back",
+      "template_id": 1138356
+     }
+    ]
+   },
+   {
+    "variant_id": 4532,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 22667
+     },
+     {
+      "placement": "back",
+      "template_id": 22668
+     }
+    ]
+   },
+   {
+    "variant_id": 9513,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 22669
+     },
+     {
+      "placement": "back",
+      "template_id": 22670
+     }
+    ]
+   },
+   {
+    "variant_id": 11075,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 22665
+     },
+     {
+      "placement": "back",
+      "template_id": 22666
+     }
+    ]
+   }
+  ],
+  "templates": [
+   {
+    "template_id": 1138355,
+    "image_url": "/printful/assets/93ad00efc3867a3d.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 1701,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2772,
+    "print_area_height": 2772,
+    "print_area_top": 114,
+    "print_area_left": 114,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 1138354,
+    "image_url": "/printful/assets/fe90c57bb59d2d0a.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 1701,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2772,
+    "print_area_height": 2772,
+    "print_area_top": 114,
+    "print_area_left": 114,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 1138358,
+    "image_url": "/printful/assets/882882640cbccf25.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 1702,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2794,
+    "print_area_height": 2794,
+    "print_area_top": 103,
+    "print_area_left": 103,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 1138356,
+    "image_url": "/printful/assets/9bbc9476a25e5d00.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 1702,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2794,
+    "print_area_height": 2794,
+    "print_area_top": 103,
+    "print_area_left": 103,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 22667,
+    "image_url": "/printful/assets/ff0c395323d81bfa.png",
+    "background_url": null,
+    "background_color": null,
+    "printfile_id": 32,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2717,
+    "print_area_height": 2717,
+    "print_area_top": 14,
+    "print_area_left": 146,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 22668,
+    "image_url": "/printful/assets/5b15cfa6aa9f6172.png",
+    "background_url": null,
+    "background_color": null,
+    "printfile_id": 32,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2717,
+    "print_area_height": 2717,
+    "print_area_top": 14,
+    "print_area_left": 146,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 22669,
+    "image_url": "/printful/assets/65c976ed60cb7c24.png",
+    "background_url": null,
+    "background_color": null,
+    "printfile_id": 72,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2997,
+    "print_area_height": 1856,
+    "print_area_top": 572,
+    "print_area_left": 3,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 22670,
+    "image_url": "/printful/assets/1ab953bc3fd95952.png",
+    "background_url": null,
+    "background_color": null,
+    "printfile_id": 72,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2997,
+    "print_area_height": 1856,
+    "print_area_top": 572,
+    "print_area_left": 3,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 22665,
+    "image_url": "/printful/assets/7671971fc1f4a8c5.png",
+    "background_url": null,
+    "background_color": null,
+    "printfile_id": 214,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2674,
+    "print_area_height": 2674,
+    "print_area_top": 97,
+    "print_area_left": 166,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 22666,
+    "image_url": "/printful/assets/c7f1b6b6fcbf5525.png",
+    "background_url": null,
+    "background_color": null,
+    "printfile_id": 214,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2674,
+    "print_area_height": 2674,
+    "print_area_top": 97,
+    "print_area_left": 166,
+    "is_template_on_front": true,
+    "orientation": "any"
+   }
+  ],
+  "min_dpi": 75,
+  "conflicting_placements": [
+   {
+    "placement": "front",
+    "conflicts": [
+     "front_large",
+     "front_dtf",
+     "front_dtfabric",
+     "chest_left_dtf",
+     "front_large_dtf"
+    ]
+   },
+   {
+    "placement": "back",
+    "conflicts": [
+     "label_outside_dtf",
+     "back_dtf",
+     "back_large",
+     "back_large_dtf",
+     "back_dtfabric"
+    ]
+   }
+  ]
+ },
+ "extra": []
+}

@@ -1,0 +1,554 @@
+{
+ "data": [
+  {
+   "placement": "label_inside",
+   "display_name": "Branding",
+   "technique": "cut-sew",
+   "print_area_width": 7,
+   "print_area_height": 4,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 24177,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24178,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24179,
+     "category_name": "Women's",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24180,
+     "category_name": "Women's",
+     "view_name": "Front 2",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24188,
+     "category_name": "Women's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24189,
+     "category_name": "Women's Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24220,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24221,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24234,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24235,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24236,
+     "category_name": "Product details",
+     "view_name": "Product details",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "front",
+   "display_name": "Front print",
+   "technique": "cut-sew",
+   "print_area_width": 30,
+   "print_area_height": 35,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 24177,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24178,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24179,
+     "category_name": "Women's",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24180,
+     "category_name": "Women's",
+     "view_name": "Front 2",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24188,
+     "category_name": "Women's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24189,
+     "category_name": "Women's Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24220,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24221,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24234,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24235,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24236,
+     "category_name": "Product details",
+     "view_name": "Product details",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "pocket",
+   "display_name": "Pocket",
+   "technique": "cut-sew",
+   "print_area_width": 30,
+   "print_area_height": 10,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 24177,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24178,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24179,
+     "category_name": "Women's",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24180,
+     "category_name": "Women's",
+     "view_name": "Front 2",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24188,
+     "category_name": "Women's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24189,
+     "category_name": "Women's Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24220,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24221,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24234,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24235,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24236,
+     "category_name": "Product details",
+     "view_name": "Product details",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "back",
+   "display_name": "Back print",
+   "technique": "cut-sew",
+   "print_area_width": 30,
+   "print_area_height": 35,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 24177,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24178,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24179,
+     "category_name": "Women's",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24180,
+     "category_name": "Women's",
+     "view_name": "Front 2",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24188,
+     "category_name": "Women's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24189,
+     "category_name": "Women's Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24220,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24221,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24234,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24235,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24236,
+     "category_name": "Product details",
+     "view_name": "Product details",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "details",
+   "display_name": "Details",
+   "technique": "cut-sew",
+   "print_area_width": 30,
+   "print_area_height": 35,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 24177,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24178,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24179,
+     "category_name": "Women's",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24180,
+     "category_name": "Women's",
+     "view_name": "Front 2",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24188,
+     "category_name": "Women's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24189,
+     "category_name": "Women's Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24220,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24221,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24234,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24235,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24236,
+     "category_name": "Product details",
+     "view_name": "Product details",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "sleeve_left",
+   "display_name": "Left sleeve",
+   "technique": "cut-sew",
+   "print_area_width": 30,
+   "print_area_height": 35,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 24177,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24178,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24179,
+     "category_name": "Women's",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24180,
+     "category_name": "Women's",
+     "view_name": "Front 2",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24188,
+     "category_name": "Women's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24189,
+     "category_name": "Women's Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24220,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24221,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24234,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24235,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24236,
+     "category_name": "Product details",
+     "view_name": "Product details",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "sleeve_right",
+   "display_name": "Right sleeve",
+   "technique": "cut-sew",
+   "print_area_width": 30,
+   "print_area_height": 35,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 24177,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24178,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24179,
+     "category_name": "Women's",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24180,
+     "category_name": "Women's",
+     "view_name": "Front 2",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24188,
+     "category_name": "Women's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24189,
+     "category_name": "Women's Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24220,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24221,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24234,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24235,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 24236,
+     "category_name": "Product details",
+     "view_name": "Product details",
+     "restricted_to_variants": null
+    }
+   ]
+  }
+ ],
+ "extra": [],
+ "paging": {
+  "total": 7,
+  "limit": 10,
+  "offset": 0
+ },
+ "_links": {
+  "self": {
+   "href": "https://api.printful.com/v2/catalog-products/827/mockup-styles?limit=10"
+  }
+ }
+}

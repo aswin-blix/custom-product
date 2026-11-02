@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "printful:snapshot": "node scripts/printful-snapshot.mjs",
+    "fonts:fetch": "node scripts/fetch-fonts.mjs"
   },
   "dependencies": {
     "fabric": "^7.4.0",

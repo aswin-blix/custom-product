@@ -1,0 +1,357 @@
+{
+ "code": 200,
+ "result": {
+  "product": {
+   "id": 1590,
+   "main_category_id": 29,
+   "type": "DIRECT-TO-FABRIC",
+   "description": "Easy to wear and impossible to ignore, this oversized sweatshirt brings together heavyweight comfort and contemporary streetwear styling. The relaxed drop-shoulder fit creates an effortless silhouette, while the premium cotton-rich fabric feels soft, substantial, and built to last. Finished with vibrant all-over print coverage and durable stretch ribbing for everyday wear.\n\n• Heavyweight cotton-blend fabric\n• Oversized fit\n• Drop shoulders\n• All-over print design\n• Soft-touch finish\n• Durable construction",
+   "type_name": "All-Over Print Oversized Cotton Sweatshirt",
+   "title": "All-Over Print Oversized Cotton Sweatshirt",
+   "brand": null,
+   "model": "All-Over Print Oversized Cotton Sweatshirt",
+   "image": "/printful/assets/d292630e2b834c54.png",
+   "variant_count": 11,
+   "currency": "USD",
+   "options": [
+    {
+     "id": "stitch_color",
+     "title": "Stitch color",
+     "type": "radio",
+     "values": {
+      "white": "White",
+      "black": "Black"
+     },
+     "additional_price": null,
+     "additional_price_breakdown": []
+    },
+    {
+     "id": "license_type",
+     "title": "License type",
+     "type": "multi_select",
+     "values": {
+      "CLC": "Collegiate Licensing Company",
+      "AFFINITY": "Affinity",
+      "BR": "BR",
+      "EX": "EX",
+      "NCAA": "NCAA",
+      "FAN": "Fan",
+      "BCOMPLY": "BrandComply",
+      "TAG": "Tag",
+      "DLH": "DLH",
+      "CORE81": "Core81"
+     },
+     "additional_price": null,
+     "additional_price_breakdown": []
+    }
+   ],
+   "dimensions": null,
+   "is_discontinued": false,
+   "avg_fulfillment_time": null,
+   "techniques": [
+    {
+     "key": "DIRECT-TO-FABRIC",
+     "display_name": "All-over cotton",
+     "is_default": true
+    }
+   ],
+   "files": [
+    {
+     "id": "front_dtfabric",
+     "type": "front_dtfabric",
+     "title": "Front print",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "back_dtfabric",
+     "type": "back_dtfabric",
+     "title": "Back print",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "sleeve_left_dtfabric",
+     "type": "sleeve_left_dtfabric",
+     "title": "Left sleeve",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "sleeve_right_dtfabric",
+     "type": "sleeve_right_dtfabric",
+     "title": "Right sleeve",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "label_panel_dtfabric",
+     "type": "label_panel_dtfabric",
+     "title": "Label panel",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "label_inside_dtfabric",
+     "type": "label_inside_dtfabric",
+     "title": "Inside label",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "preview",
+     "type": "mockup",
+     "title": "Mockup",
+     "additional_price": null,
+     "options": []
+    }
+   ],
+   "origin_country": null
+  },
+  "variants": [
+   {
+    "id": 51486,
+    "product_id": 1590,
+    "name": "All-Over Print Oversized Cotton Sweatshirt (White / 2XL)",
+    "size": "2XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/bae9c9a15f9521e9.jpg",
+    "price": "44.84",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 51480,
+    "product_id": 1590,
+    "name": "All-Over Print Oversized Cotton Sweatshirt (White / 2XS)",
+    "size": "2XS",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/bae9c9a15f9521e9.jpg",
+    "price": "42.84",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 51487,
+    "product_id": 1590,
+    "name": "All-Over Print Oversized Cotton Sweatshirt (White / 3XL)",
+    "size": "3XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/bae9c9a15f9521e9.jpg",
+    "price": "46.84",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 51488,
+    "product_id": 1590,
+    "name": "All-Over Print Oversized Cotton Sweatshirt (White / 4XL)",
+    "size": "4XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/bae9c9a15f9521e9.jpg",
+    "price": "48.84",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 51489,
+    "product_id": 1590,
+    "name": "All-Over Print Oversized Cotton Sweatshirt (White / 5XL)",
+    "size": "5XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/bae9c9a15f9521e9.jpg",
+    "price": "50.84",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 51490,
+    "product_id": 1590,
+    "name": "All-Over Print Oversized Cotton Sweatshirt (White / 6XL)",
+    "size": "6XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/bae9c9a15f9521e9.jpg",
+    "price": "52.84",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 51484,
+    "product_id": 1590,
+    "name": "All-Over Print Oversized Cotton Sweatshirt (White / L)",
+    "size": "L",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/bae9c9a15f9521e9.jpg",
+    "price": "42.84",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 51483,
+    "product_id": 1590,
+    "name": "All-Over Print Oversized Cotton Sweatshirt (White / M)",
+    "size": "M",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/bae9c9a15f9521e9.jpg",
+    "price": "42.84",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 51482,
+    "product_id": 1590,
+    "name": "All-Over Print Oversized Cotton Sweatshirt (White / S)",
+    "size": "S",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/bae9c9a15f9521e9.jpg",
+    "price": "42.84",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 51485,
+    "product_id": 1590,
+    "name": "All-Over Print Oversized Cotton Sweatshirt (White / XL)",
+    "size": "XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/bae9c9a15f9521e9.jpg",
+    "price": "42.84",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 51481,
+    "product_id": 1590,
+    "name": "All-Over Print Oversized Cotton Sweatshirt (White / XS)",
+    "size": "XS",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/bae9c9a15f9521e9.jpg",
+    "price": "42.84",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   }
+  ]
+ },
+ "extra": []
+}

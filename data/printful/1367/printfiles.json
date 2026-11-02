@@ -1,0 +1,205 @@
+{
+ "code": 200,
+ "result": {
+  "product_id": 1367,
+  "available_placements": {
+   "front": "Front print",
+   "back": "Back print",
+   "sleeve_left": "Left sleeve",
+   "sleeve_right": "Right sleeve",
+   "label_inside": "Inside label",
+   "label_outside_front": "Outside label front",
+   "label_outside_back": "Outside label back"
+  },
+  "printfiles": [
+   {
+    "printfile_id": 200,
+    "width": 6000,
+    "height": 6000,
+    "dpi": 150,
+    "fill_mode": "cover",
+    "can_rotate": false
+   },
+   {
+    "printfile_id": 304,
+    "width": 188,
+    "height": 75,
+    "dpi": 150,
+    "fill_mode": "fit",
+    "can_rotate": false
+   },
+   {
+    "printfile_id": 400,
+    "width": 450,
+    "height": 450,
+    "dpi": 150,
+    "fill_mode": "cover",
+    "can_rotate": false
+   },
+   {
+    "printfile_id": 536,
+    "width": 6000,
+    "height": 2250,
+    "dpi": 150,
+    "fill_mode": "cover",
+    "can_rotate": false
+   }
+  ],
+  "variant_printfiles": [
+   {
+    "variant_id": 25458,
+    "placements": {
+     "front": 200,
+     "back": 200,
+     "sleeve_left": 536,
+     "sleeve_right": 536,
+     "label_inside": 304,
+     "label_outside_front": 400,
+     "label_outside_back": 400
+    }
+   },
+   {
+    "variant_id": 25459,
+    "placements": {
+     "front": 200,
+     "back": 200,
+     "sleeve_left": 536,
+     "sleeve_right": 536,
+     "label_inside": 304,
+     "label_outside_front": 400,
+     "label_outside_back": 400
+    }
+   },
+   {
+    "variant_id": 25460,
+    "placements": {
+     "front": 200,
+     "back": 200,
+     "sleeve_left": 536,
+     "sleeve_right": 536,
+     "label_inside": 304,
+     "label_outside_front": 400,
+     "label_outside_back": 400
+    }
+   },
+   {
+    "variant_id": 25461,
+    "placements": {
+     "front": 200,
+     "back": 200,
+     "sleeve_left": 536,
+     "sleeve_right": 536,
+     "label_inside": 304,
+     "label_outside_front": 400,
+     "label_outside_back": 400
+    }
+   },
+   {
+    "variant_id": 25462,
+    "placements": {
+     "front": 200,
+     "back": 200,
+     "sleeve_left": 536,
+     "sleeve_right": 536,
+     "label_inside": 304,
+     "label_outside_front": 400,
+     "label_outside_back": 400
+    }
+   },
+   {
+    "variant_id": 25463,
+    "placements": {
+     "front": 200,
+     "back": 200,
+     "sleeve_left": 536,
+     "sleeve_right": 536,
+     "label_inside": 304,
+     "label_outside_front": 400,
+     "label_outside_back": 400
+    }
+   },
+   {
+    "variant_id": 25464,
+    "placements": {
+     "front": 200,
+     "back": 200,
+     "sleeve_left": 536,
+     "sleeve_right": 536,
+     "label_inside": 304,
+     "label_outside_front": 400,
+     "label_outside_back": 400
+    }
+   },
+   {
+    "variant_id": 25465,
+    "placements": {
+     "front": 200,
+     "back": 200,
+     "sleeve_left": 536,
+     "sleeve_right": 536,
+     "label_inside": 304,
+     "label_outside_front": 400,
+     "label_outside_back": 400
+    }
+   },
+   {
+    "variant_id": 25466,
+    "placements": {
+     "front": 200,
+     "back": 200,
+     "sleeve_left": 536,
+     "sleeve_right": 536,
+     "label_inside": 304,
+     "label_outside_front": 400,
+     "label_outside_back": 400
+    }
+   },
+   {
+    "variant_id": 25467,
+    "placements": {
+     "front": 200,
+     "back": 200,
+     "sleeve_left": 536,
+     "sleeve_right": 536,
+     "label_inside": 304,
+     "label_outside_front": 400,
+     "label_outside_back": 400
+    }
+   },
+   {
+    "variant_id": 25468,
+    "placements": {
+     "front": 200,
+     "back": 200,
+     "sleeve_left": 536,
+     "sleeve_right": 536,
+     "label_inside": 304,
+     "label_outside_front": 400,
+     "label_outside_back": 400
+    }
+   }
+  ],
+  "option_groups": [
+   "Collage",
+   "Duet",
+   "Flat",
+   "Ghost",
+   "Men's",
+   "Templates",
+   "Women's"
+  ],
+  "options": [
+   "Back",
+   "Front",
+   "Front and Back",
+   "Inside label",
+   "Left Front",
+   "Left Sleeve",
+   "Outside Label Back",
+   "Outside Label Front",
+   "Right Back",
+   "Right Sleeve"
+  ]
+ },
+ "extra": []
+}

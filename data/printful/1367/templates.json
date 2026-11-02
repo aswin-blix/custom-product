@@ -1,0 +1,532 @@
+{
+ "code": 200,
+ "result": {
+  "version": 100,
+  "variant_mapping": [
+   {
+    "variant_id": 25458,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1006450
+     },
+     {
+      "placement": "back",
+      "template_id": 1006449
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 1006452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 1006453
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 1006451
+     },
+     {
+      "placement": "label_outside_front",
+      "template_id": 1006455
+     },
+     {
+      "placement": "label_outside_back",
+      "template_id": 1006454
+     }
+    ]
+   },
+   {
+    "variant_id": 25459,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1006450
+     },
+     {
+      "placement": "back",
+      "template_id": 1006449
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 1006452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 1006453
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 1006451
+     },
+     {
+      "placement": "label_outside_front",
+      "template_id": 1006455
+     },
+     {
+      "placement": "label_outside_back",
+      "template_id": 1006454
+     }
+    ]
+   },
+   {
+    "variant_id": 25460,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1006450
+     },
+     {
+      "placement": "back",
+      "template_id": 1006449
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 1006452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 1006453
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 1006451
+     },
+     {
+      "placement": "label_outside_front",
+      "template_id": 1006455
+     },
+     {
+      "placement": "label_outside_back",
+      "template_id": 1006454
+     }
+    ]
+   },
+   {
+    "variant_id": 25461,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1006450
+     },
+     {
+      "placement": "back",
+      "template_id": 1006449
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 1006452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 1006453
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 1006451
+     },
+     {
+      "placement": "label_outside_front",
+      "template_id": 1006455
+     },
+     {
+      "placement": "label_outside_back",
+      "template_id": 1006454
+     }
+    ]
+   },
+   {
+    "variant_id": 25462,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1006450
+     },
+     {
+      "placement": "back",
+      "template_id": 1006449
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 1006452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 1006453
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 1006451
+     },
+     {
+      "placement": "label_outside_front",
+      "template_id": 1006455
+     },
+     {
+      "placement": "label_outside_back",
+      "template_id": 1006454
+     }
+    ]
+   },
+   {
+    "variant_id": 25463,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1006450
+     },
+     {
+      "placement": "back",
+      "template_id": 1006449
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 1006452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 1006453
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 1006451
+     },
+     {
+      "placement": "label_outside_front",
+      "template_id": 1006455
+     },
+     {
+      "placement": "label_outside_back",
+      "template_id": 1006454
+     }
+    ]
+   },
+   {
+    "variant_id": 25464,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1006450
+     },
+     {
+      "placement": "back",
+      "template_id": 1006449
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 1006452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 1006453
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 1006451
+     },
+     {
+      "placement": "label_outside_front",
+      "template_id": 1006455
+     },
+     {
+      "placement": "label_outside_back",
+      "template_id": 1006454
+     }
+    ]
+   },
+   {
+    "variant_id": 25465,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1006450
+     },
+     {
+      "placement": "back",
+      "template_id": 1006449
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 1006452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 1006453
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 1006451
+     },
+     {
+      "placement": "label_outside_front",
+      "template_id": 1006455
+     },
+     {
+      "placement": "label_outside_back",
+      "template_id": 1006454
+     }
+    ]
+   },
+   {
+    "variant_id": 25466,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1006450
+     },
+     {
+      "placement": "back",
+      "template_id": 1006449
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 1006452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 1006453
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 1006451
+     },
+     {
+      "placement": "label_outside_front",
+      "template_id": 1006455
+     },
+     {
+      "placement": "label_outside_back",
+      "template_id": 1006454
+     }
+    ]
+   },
+   {
+    "variant_id": 25467,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1006450
+     },
+     {
+      "placement": "back",
+      "template_id": 1006449
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 1006452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 1006453
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 1006451
+     },
+     {
+      "placement": "label_outside_front",
+      "template_id": 1006455
+     },
+     {
+      "placement": "label_outside_back",
+      "template_id": 1006454
+     }
+    ]
+   },
+   {
+    "variant_id": 25468,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 1006450
+     },
+     {
+      "placement": "back",
+      "template_id": 1006449
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 1006452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 1006453
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 1006451
+     },
+     {
+      "placement": "label_outside_front",
+      "template_id": 1006455
+     },
+     {
+      "placement": "label_outside_back",
+      "template_id": 1006454
+     }
+    ]
+   }
+  ],
+  "templates": [
+   {
+    "template_id": 1006450,
+    "image_url": "/printful/assets/8847bbc385f20f84.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 200,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2596,
+    "print_area_height": 2596,
+    "print_area_top": 0,
+    "print_area_left": 202,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 1006449,
+    "image_url": "/printful/assets/e9b78a20277efd2d.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 200,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2596,
+    "print_area_height": 2596,
+    "print_area_top": 0,
+    "print_area_left": 202,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 1006452,
+    "image_url": "/printful/assets/c6e75e9dd4dcd069.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 536,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 3000,
+    "print_area_height": 1124,
+    "print_area_top": 938,
+    "print_area_left": 0,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 1006453,
+    "image_url": "/printful/assets/ec1ec807ce682446.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 536,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 3000,
+    "print_area_height": 1124,
+    "print_area_top": 938,
+    "print_area_left": 0,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 1006451,
+    "image_url": "/printful/assets/74d3dd6f0489461a.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 304,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 1740,
+    "print_area_height": 696,
+    "print_area_top": 1152,
+    "print_area_left": 630,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 1006455,
+    "image_url": "/printful/assets/27e25583b23d0d69.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 400,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 1540,
+    "print_area_height": 1540,
+    "print_area_top": 730,
+    "print_area_left": 730,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 1006454,
+    "image_url": "/printful/assets/f26f176cbc84ffa3.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 400,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 1540,
+    "print_area_height": 1540,
+    "print_area_top": 730,
+    "print_area_left": 730,
+    "is_template_on_front": true,
+    "orientation": "any"
+   }
+  ],
+  "min_dpi": 75,
+  "conflicting_placements": [
+   {
+    "placement": "front",
+    "conflicts": [
+     "front_large",
+     "front_dtf",
+     "front_dtfabric",
+     "chest_left_dtf",
+     "front_large_dtf"
+    ]
+   },
+   {
+    "placement": "back",
+    "conflicts": [
+     "label_outside_dtf",
+     "back_dtf",
+     "back_large",
+     "back_large_dtf",
+     "back_dtfabric"
+    ]
+   },
+   {
+    "placement": "sleeve_left",
+    "conflicts": [
+     "long_sleeve_left_dtf",
+     "short_sleeve_left_dtf",
+     "embroidery_wrist_right",
+     "embroidery_wrist_left",
+     "embroidery_sleeve_left_top",
+     "embroidery_sleeve_right_top"
+    ]
+   },
+   {
+    "placement": "sleeve_right",
+    "conflicts": [
+     "long_sleeve_right_dtf",
+     "short_sleeve_right_dtf",
+     "embroidery_wrist_right",
+     "embroidery_wrist_left",
+     "embroidery_sleeve_left_top",
+     "embroidery_sleeve_right_top",
+     "sleeve_right_dtfabric"
+    ]
+   },
+   {
+    "placement": "label_inside",
+    "conflicts": [
+     "label_outside_dtf",
+     "label_inside_dtf"
+    ]
+   }
+  ]
+ },
+ "extra": []
+}

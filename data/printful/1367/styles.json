@@ -1,0 +1,596 @@
+{
+ "data": [
+  {
+   "placement": "front",
+   "display_name": "Front print",
+   "technique": "cut-sew",
+   "print_area_width": 40,
+   "print_area_height": 40,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 28609,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28610,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28611,
+     "category_name": "Collage",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28612,
+     "category_name": "Ghost",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28613,
+     "category_name": "Men's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28614,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28615,
+     "category_name": "Men's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28616,
+     "category_name": "Ghost",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28617,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28618,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28619,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28620,
+     "category_name": "Duet",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "back",
+   "display_name": "Back print",
+   "technique": "cut-sew",
+   "print_area_width": 40,
+   "print_area_height": 40,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 28609,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28610,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28611,
+     "category_name": "Collage",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28612,
+     "category_name": "Ghost",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28613,
+     "category_name": "Men's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28614,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28615,
+     "category_name": "Men's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28616,
+     "category_name": "Ghost",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28617,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28618,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28619,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28620,
+     "category_name": "Duet",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "sleeve_left",
+   "display_name": "Left sleeve",
+   "technique": "cut-sew",
+   "print_area_width": 40,
+   "print_area_height": 15,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 28609,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28610,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28611,
+     "category_name": "Collage",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28612,
+     "category_name": "Ghost",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28613,
+     "category_name": "Men's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28614,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28615,
+     "category_name": "Men's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28616,
+     "category_name": "Ghost",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28617,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28618,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28619,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28620,
+     "category_name": "Duet",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "sleeve_right",
+   "display_name": "Right sleeve",
+   "technique": "cut-sew",
+   "print_area_width": 40,
+   "print_area_height": 15,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 28609,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28610,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28611,
+     "category_name": "Collage",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28612,
+     "category_name": "Ghost",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28613,
+     "category_name": "Men's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28614,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28615,
+     "category_name": "Men's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28616,
+     "category_name": "Ghost",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28617,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28618,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28619,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28620,
+     "category_name": "Duet",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "label_inside",
+   "display_name": "Inside label",
+   "technique": "cut-sew",
+   "print_area_width": 1.2533333333333334,
+   "print_area_height": 0.5,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 28609,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28610,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28611,
+     "category_name": "Collage",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28612,
+     "category_name": "Ghost",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28613,
+     "category_name": "Men's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28614,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28615,
+     "category_name": "Men's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28616,
+     "category_name": "Ghost",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28617,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28618,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28619,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28620,
+     "category_name": "Duet",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "label_outside_front",
+   "display_name": "Outside label front",
+   "technique": "cut-sew",
+   "print_area_width": 3,
+   "print_area_height": 3,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 28609,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28610,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28611,
+     "category_name": "Collage",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28612,
+     "category_name": "Ghost",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28613,
+     "category_name": "Men's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28614,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28615,
+     "category_name": "Men's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28616,
+     "category_name": "Ghost",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28617,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28618,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28619,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28620,
+     "category_name": "Duet",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "label_outside_back",
+   "display_name": "Outside label back",
+   "technique": "cut-sew",
+   "print_area_width": 3,
+   "print_area_height": 3,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 28609,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28610,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28611,
+     "category_name": "Collage",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28612,
+     "category_name": "Ghost",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28613,
+     "category_name": "Men's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28614,
+     "category_name": "Women's",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28615,
+     "category_name": "Men's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28616,
+     "category_name": "Ghost",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28617,
+     "category_name": "Women's",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28618,
+     "category_name": "Ghost",
+     "view_name": "Right Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28619,
+     "category_name": "Ghost",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 28620,
+     "category_name": "Duet",
+     "view_name": "Front and Back",
+     "restricted_to_variants": null
+    }
+   ]
+  }
+ ],
+ "extra": [],
+ "paging": {
+  "total": 7,
+  "limit": 10,
+  "offset": 0
+ },
+ "_links": {
+  "self": {
+   "href": "https://api.printful.com/v2/catalog-products/1367/mockup-styles?limit=10"
+  }
+ }
+}

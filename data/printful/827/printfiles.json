@@ -1,0 +1,211 @@
+{
+ "code": 200,
+ "result": {
+  "product_id": 827,
+  "available_placements": {
+   "front": "Front print",
+   "back": "Back print",
+   "details": "Details",
+   "pocket": "Pocket",
+   "sleeve_left": "Left sleeve",
+   "sleeve_right": "Right sleeve",
+   "label_inside": "Branding"
+  },
+  "printfiles": [
+   {
+    "printfile_id": 356,
+    "width": 1050,
+    "height": 600,
+    "dpi": 150,
+    "fill_mode": "fit",
+    "can_rotate": false
+   },
+   {
+    "printfile_id": 711,
+    "width": 4500,
+    "height": 5250,
+    "dpi": 150,
+    "fill_mode": "cover",
+    "can_rotate": false
+   },
+   {
+    "printfile_id": 712,
+    "width": 4500,
+    "height": 1500,
+    "dpi": 150,
+    "fill_mode": "cover",
+    "can_rotate": false
+   }
+  ],
+  "variant_printfiles": [
+   {
+    "variant_id": 20952,
+    "placements": {
+     "front": 711,
+     "back": 711,
+     "details": 711,
+     "pocket": 712,
+     "sleeve_left": 711,
+     "sleeve_right": 711,
+     "label_inside": 356
+    }
+   },
+   {
+    "variant_id": 20954,
+    "placements": {
+     "front": 711,
+     "back": 711,
+     "details": 711,
+     "pocket": 712,
+     "sleeve_left": 711,
+     "sleeve_right": 711,
+     "label_inside": 356
+    }
+   },
+   {
+    "variant_id": 20956,
+    "placements": {
+     "front": 711,
+     "back": 711,
+     "details": 711,
+     "pocket": 712,
+     "sleeve_left": 711,
+     "sleeve_right": 711,
+     "label_inside": 356
+    }
+   },
+   {
+    "variant_id": 20958,
+    "placements": {
+     "front": 711,
+     "back": 711,
+     "details": 711,
+     "pocket": 712,
+     "sleeve_left": 711,
+     "sleeve_right": 711,
+     "label_inside": 356
+    }
+   },
+   {
+    "variant_id": 20960,
+    "placements": {
+     "front": 711,
+     "back": 711,
+     "details": 711,
+     "pocket": 712,
+     "sleeve_left": 711,
+     "sleeve_right": 711,
+     "label_inside": 356
+    }
+   },
+   {
+    "variant_id": 20962,
+    "placements": {
+     "front": 711,
+     "back": 711,
+     "details": 711,
+     "pocket": 712,
+     "sleeve_left": 711,
+     "sleeve_right": 711,
+     "label_inside": 356
+    }
+   },
+   {
+    "variant_id": 20953,
+    "placements": {
+     "front": 711,
+     "back": 711,
+     "details": 711,
+     "pocket": 712,
+     "sleeve_left": 711,
+     "sleeve_right": 711,
+     "label_inside": 356
+    }
+   },
+   {
+    "variant_id": 20955,
+    "placements": {
+     "front": 711,
+     "back": 711,
+     "details": 711,
+     "pocket": 712,
+     "sleeve_left": 711,
+     "sleeve_right": 711,
+     "label_inside": 356
+    }
+   },
+   {
+    "variant_id": 20957,
+    "placements": {
+     "front": 711,
+     "back": 711,
+     "details": 711,
+     "pocket": 712,
+     "sleeve_left": 711,
+     "sleeve_right": 711,
+     "label_inside": 356
+    }
+   },
+   {
+    "variant_id": 20959,
+    "placements": {
+     "front": 711,
+     "back": 711,
+     "details": 711,
+     "pocket": 712,
+     "sleeve_left": 711,
+     "sleeve_right": 711,
+     "label_inside": 356
+    }
+   },
+   {
+    "variant_id": 20961,
+    "placements": {
+     "front": 711,
+     "back": 711,
+     "details": 711,
+     "pocket": 712,
+     "sleeve_left": 711,
+     "sleeve_right": 711,
+     "label_inside": 356
+    }
+   },
+   {
+    "variant_id": 20963,
+    "placements": {
+     "front": 711,
+     "back": 711,
+     "details": 711,
+     "pocket": 712,
+     "sleeve_left": 711,
+     "sleeve_right": 711,
+     "label_inside": 356
+    }
+   }
+  ],
+  "option_groups": [
+   "Flat",
+   "Ghost",
+   "Product details",
+   "Templates",
+   "Women's",
+   "Women's Lifestyle",
+   "Women's Lifestyle 2"
+  ],
+  "options": [
+   "Back",
+   "Branding",
+   "Details",
+   "Front",
+   "Front 2",
+   "Left",
+   "Left Front",
+   "Left Sleeve",
+   "Pocket",
+   "Product details",
+   "Right Back",
+   "Right Sleeve"
+  ]
+ },
+ "extra": []
+}

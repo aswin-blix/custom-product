@@ -114,15 +114,56 @@ interface V2Styles {
 /** Placements the design maker exposes (branding / labels are fulfilment-only). */
 const HIDDEN = /^label_|^details$/;
 
+interface RawBundle {
+  prod: V1Product;
+  pfs: V1Printfiles;
+  tpls: V1Templates;
+  imgs: V2Images;
+  styles: V2Styles;
+}
+
+const SNAPSHOT_DIR = path.join(process.cwd(), "data", "printful");
+
+/**
+ * Offline snapshot written by `npm run printful:snapshot` (raw API responses
+ * with asset URLs rewritten to /printful/assets/…). Preferred over the API so
+ * the app runs with no key and no network.
+ */
+async function readSnapshot(id: number): Promise<RawBundle | null> {
+  const dir = path.join(SNAPSHOT_DIR, String(id));
+  try {
+    const read = async <T>(name: string): Promise<T> => JSON.parse(await fs.readFile(path.join(dir, name), "utf8")) as T;
+    const [prod, pfs, tpls] = await Promise.all([read<V1Product>("product.json"), read<V1Printfiles>("printfiles.json"), read<V1Templates>("templates.json")]);
+    const styles = await read<V2Styles>("styles.json").catch(() => ({ data: [] }) as V2Styles);
+    return { prod, pfs, tpls, imgs: { data: [] }, styles };
+  } catch {
+    return null;
+  }
+}
+
+async function fetchBundle(id: number): Promise<RawBundle> {
+  const [prod, pfs, tpls, imgs, styles] = await Promise.all([
+    pf<V1Product>(`/products/${id}`),
+    pf<V1Printfiles>(`/mockup-generator/printfiles/${id}`),
+    pf<V1Templates>(`/mockup-generator/templates/${id}`),
+    pf<V2Images>(`/v2/catalog-products/${id}/images`).catch(() => ({ data: [] }) as V2Images),
+    pf<V2Styles>(`/v2/catalog-products/${id}/mockup-styles`).catch(() => ({ data: [] }) as V2Styles),
+  ]);
+  return { prod, pfs, tpls, imgs, styles };
+}
+
+export async function hasSnapshot(id: number) {
+  return (await readSnapshot(id)) !== null;
+}
+
 export async function getProductData(id: number): Promise<ProductData> {
-  return cached(`product-${id}`, async () => {
-    const [prod, pfs, tpls, imgs, styles] = await Promise.all([
-      pf<V1Product>(`/products/${id}`),
-      pf<V1Printfiles>(`/mockup-generator/printfiles/${id}`),
-      pf<V1Templates>(`/mockup-generator/templates/${id}`),
-      pf<V2Images>(`/v2/catalog-products/${id}/images`).catch(() => ({ data: [] }) as V2Images),
-      pf<V2Styles>(`/v2/catalog-products/${id}/mockup-styles`).catch(() => ({ data: [] }) as V2Styles),
-    ]);
+  const snap = await readSnapshot(id);
+  if (snap) return normalize(snap);
+  return cached(`product-${id}`, async () => normalize(await fetchBundle(id)));
+}
+
+function normalize({ prod, pfs, tpls, imgs, styles }: RawBundle): ProductData {
+  {
 
     const printfiles = new Map(pfs.result.printfiles.map((p) => [p.printfile_id, p]));
     const templates = new Map(tpls.result.templates.map((t) => [t.template_id, t]));
@@ -214,7 +255,7 @@ export async function getProductData(id: number): Promise<ProductData> {
       mockupStyles,
       fetchedAt: Date.now(),
     };
-  });
+  }
 }
 
 /* ---------------- mockup generator ---------------- */

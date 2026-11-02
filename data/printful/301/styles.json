@@ -1,0 +1,587 @@
+{
+ "data": [
+  {
+   "placement": "front",
+   "display_name": "Front print",
+   "technique": "cut-sew",
+   "print_area_width": 28,
+   "print_area_height": 36,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 17718,
+     "category_name": "On Model",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17719,
+     "category_name": "On Model",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17720,
+     "category_name": "On Model",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17721,
+     "category_name": "On Model",
+     "view_name": "Right",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17722,
+     "category_name": "Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17723,
+     "category_name": "Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17724,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17725,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17726,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17727,
+     "category_name": "Lifestyle 2",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17728,
+     "category_name": "Men's 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17729,
+     "category_name": "Men's 2",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17730,
+     "category_name": "Men's 2",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17731,
+     "category_name": "Men's 2",
+     "view_name": "Right",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17732,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17733,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17734,
+     "category_name": "On Hanger",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17735,
+     "category_name": "On Hanger",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17736,
+     "category_name": "Flat 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17737,
+     "category_name": "Flat 2",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17738,
+     "category_name": "Men's 3",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17739,
+     "category_name": "Men's 3",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "back",
+   "display_name": "Back print",
+   "technique": "cut-sew",
+   "print_area_width": 28,
+   "print_area_height": 36,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 17718,
+     "category_name": "On Model",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17719,
+     "category_name": "On Model",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17720,
+     "category_name": "On Model",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17721,
+     "category_name": "On Model",
+     "view_name": "Right",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17722,
+     "category_name": "Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17723,
+     "category_name": "Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17724,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17725,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17726,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17727,
+     "category_name": "Lifestyle 2",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17728,
+     "category_name": "Men's 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17729,
+     "category_name": "Men's 2",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17730,
+     "category_name": "Men's 2",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17731,
+     "category_name": "Men's 2",
+     "view_name": "Right",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17732,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17733,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17734,
+     "category_name": "On Hanger",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17735,
+     "category_name": "On Hanger",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17736,
+     "category_name": "Flat 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17737,
+     "category_name": "Flat 2",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17738,
+     "category_name": "Men's 3",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17739,
+     "category_name": "Men's 3",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "sleeve_right",
+   "display_name": "Right sleeve",
+   "technique": "cut-sew",
+   "print_area_width": 28,
+   "print_area_height": 36,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 17718,
+     "category_name": "On Model",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17719,
+     "category_name": "On Model",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17720,
+     "category_name": "On Model",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17721,
+     "category_name": "On Model",
+     "view_name": "Right",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17722,
+     "category_name": "Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17723,
+     "category_name": "Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17724,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17725,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17726,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17727,
+     "category_name": "Lifestyle 2",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17728,
+     "category_name": "Men's 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17729,
+     "category_name": "Men's 2",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17730,
+     "category_name": "Men's 2",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17731,
+     "category_name": "Men's 2",
+     "view_name": "Right",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17732,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17733,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17734,
+     "category_name": "On Hanger",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17735,
+     "category_name": "On Hanger",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17736,
+     "category_name": "Flat 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17737,
+     "category_name": "Flat 2",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17738,
+     "category_name": "Men's 3",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17739,
+     "category_name": "Men's 3",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "sleeve_left",
+   "display_name": "Left sleeve",
+   "technique": "cut-sew",
+   "print_area_width": 28,
+   "print_area_height": 36,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 17718,
+     "category_name": "On Model",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17719,
+     "category_name": "On Model",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17720,
+     "category_name": "On Model",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17721,
+     "category_name": "On Model",
+     "view_name": "Right",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17722,
+     "category_name": "Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17723,
+     "category_name": "Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17724,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17725,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17726,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17727,
+     "category_name": "Lifestyle 2",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17728,
+     "category_name": "Men's 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17729,
+     "category_name": "Men's 2",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17730,
+     "category_name": "Men's 2",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17731,
+     "category_name": "Men's 2",
+     "view_name": "Right",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17732,
+     "category_name": "Flat",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17733,
+     "category_name": "Flat",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17734,
+     "category_name": "On Hanger",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17735,
+     "category_name": "On Hanger",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17736,
+     "category_name": "Flat 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17737,
+     "category_name": "Flat 2",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17738,
+     "category_name": "Men's 3",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 17739,
+     "category_name": "Men's 3",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    }
+   ]
+  }
+ ],
+ "extra": [],
+ "paging": {
+  "total": 4,
+  "limit": 10,
+  "offset": 0
+ },
+ "_links": {
+  "self": {
+   "href": "https://api.printful.com/v2/catalog-products/301/mockup-styles?limit=10"
+  }
+ }
+}

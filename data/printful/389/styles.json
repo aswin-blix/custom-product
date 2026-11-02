@@ -1,0 +1,354 @@
+{
+ "data": [
+  {
+   "placement": "front",
+   "display_name": "Front print",
+   "technique": "cut-sew",
+   "print_area_width": 14,
+   "print_area_height": 19,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 20189,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20190,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20191,
+     "category_name": "Default",
+     "view_name": "Bottom",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20192,
+     "category_name": "Default",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20193,
+     "category_name": "Default",
+     "view_name": "Right",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20194,
+     "category_name": "Lifestyle 1",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20195,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20196,
+     "category_name": "Boy's Lifestyle",
+     "view_name": "Right Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20197,
+     "category_name": "Boy's Lifestyle",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20198,
+     "category_name": "Boy's Lifestyle",
+     "view_name": "Zoomed-in",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20199,
+     "category_name": "Boy's Lifestyle",
+     "view_name": "Zoomed-in",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20200,
+     "category_name": "Men's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20201,
+     "category_name": "Men's Lifestyle",
+     "view_name": "Right Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20202,
+     "category_name": "Boy's Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20203,
+     "category_name": "Boy's Lifestyle 2",
+     "view_name": "Right Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20204,
+     "category_name": "Girl's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20205,
+     "category_name": "Girl's Lifestyle",
+     "view_name": "Right Front",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "top",
+   "display_name": "Top panel",
+   "technique": "cut-sew",
+   "print_area_width": 28,
+   "print_area_height": 11,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 20189,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20190,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20191,
+     "category_name": "Default",
+     "view_name": "Bottom",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20192,
+     "category_name": "Default",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20193,
+     "category_name": "Default",
+     "view_name": "Right",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20194,
+     "category_name": "Lifestyle 1",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20195,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20196,
+     "category_name": "Boy's Lifestyle",
+     "view_name": "Right Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20197,
+     "category_name": "Boy's Lifestyle",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20198,
+     "category_name": "Boy's Lifestyle",
+     "view_name": "Zoomed-in",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20199,
+     "category_name": "Boy's Lifestyle",
+     "view_name": "Zoomed-in",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20200,
+     "category_name": "Men's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20201,
+     "category_name": "Men's Lifestyle",
+     "view_name": "Right Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20202,
+     "category_name": "Boy's Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20203,
+     "category_name": "Boy's Lifestyle 2",
+     "view_name": "Right Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20204,
+     "category_name": "Girl's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20205,
+     "category_name": "Girl's Lifestyle",
+     "view_name": "Right Front",
+     "restricted_to_variants": null
+    }
+   ]
+  },
+  {
+   "placement": "bottom",
+   "display_name": "Bottom panel",
+   "technique": "cut-sew",
+   "print_area_width": 28,
+   "print_area_height": 7.5,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 20189,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20190,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20191,
+     "category_name": "Default",
+     "view_name": "Bottom",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20192,
+     "category_name": "Default",
+     "view_name": "Left",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20193,
+     "category_name": "Default",
+     "view_name": "Right",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20194,
+     "category_name": "Lifestyle 1",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20195,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20196,
+     "category_name": "Boy's Lifestyle",
+     "view_name": "Right Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20197,
+     "category_name": "Boy's Lifestyle",
+     "view_name": "Left Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20198,
+     "category_name": "Boy's Lifestyle",
+     "view_name": "Zoomed-in",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20199,
+     "category_name": "Boy's Lifestyle",
+     "view_name": "Zoomed-in",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20200,
+     "category_name": "Men's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20201,
+     "category_name": "Men's Lifestyle",
+     "view_name": "Right Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20202,
+     "category_name": "Boy's Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20203,
+     "category_name": "Boy's Lifestyle 2",
+     "view_name": "Right Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20204,
+     "category_name": "Girl's Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": null
+    },
+    {
+     "id": 20205,
+     "category_name": "Girl's Lifestyle",
+     "view_name": "Right Front",
+     "restricted_to_variants": null
+    }
+   ]
+  }
+ ],
+ "extra": [],
+ "paging": {
+  "total": 3,
+  "limit": 10,
+  "offset": 0
+ },
+ "_links": {
+  "self": {
+   "href": "https://api.printful.com/v2/catalog-products/389/mockup-styles?limit=10"
+  }
+ }
+}

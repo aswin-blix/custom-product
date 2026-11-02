@@ -15,7 +15,22 @@ npm run build      # production build (all routes prerender)
 npm run lint
 ```
 
-## Printful integration (live catalog, templates, photos, mockups)
+## Runs fully offline
+
+Everything the designer needs is committed to the repo, so **no API key or network is required**:
+
+| What | Where | Refresh with |
+|---|---|---|
+| Catalog data (products, variants, prices, print-file sizes, templates, mockup styles) | `data/printful/<id>/*.json` | `npm run printful:snapshot` (needs a key) |
+| Design templates + product photos (70 files, ~6 MB) | `public/printful/assets/` | same script |
+| Designer fonts (13 woff2) | `public/fonts/` + `src/app/fonts.css` | `npm run fonts:fetch` |
+
+The loader prefers the snapshot; the live API is only used for a product that has no snapshot
+*and* a configured key. The only feature that cannot run offline is Printful's **photo** Mockup
+Generator (a remote renderer) — offline, the Mockups view shows previews built from the
+downloaded templates instead.
+
+## Printful integration (optional: live catalog + photo mockups)
 
 Create `.env.local` in the project root:
 

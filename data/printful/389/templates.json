@@ -1,0 +1,86 @@
+{
+ "code": 200,
+ "result": {
+  "version": 100,
+  "variant_mapping": [
+   {
+    "variant_id": 10876,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 19366
+     },
+     {
+      "placement": "top",
+      "template_id": 19367
+     },
+     {
+      "placement": "bottom",
+      "template_id": 19368
+     }
+    ]
+   }
+  ],
+  "templates": [
+   {
+    "template_id": 19366,
+    "image_url": "/printful/assets/c1b7730be4e329dc.png",
+    "background_url": null,
+    "background_color": null,
+    "printfile_id": 201,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 1916,
+    "print_area_height": 2600,
+    "print_area_top": 32,
+    "print_area_left": 535,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 19367,
+    "image_url": "/printful/assets/ab9f88c04a900e51.png",
+    "background_url": null,
+    "background_color": null,
+    "printfile_id": 202,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 3000,
+    "print_area_height": 1178,
+    "print_area_top": 737,
+    "print_area_left": 0,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 19368,
+    "image_url": "/printful/assets/a8a1523cd5fbfe47.png",
+    "background_url": null,
+    "background_color": null,
+    "printfile_id": 203,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 3000,
+    "print_area_height": 803,
+    "print_area_top": 910,
+    "print_area_left": 0,
+    "is_template_on_front": true,
+    "orientation": "any"
+   }
+  ],
+  "min_dpi": 75,
+  "conflicting_placements": [
+   {
+    "placement": "front",
+    "conflicts": [
+     "front_large",
+     "front_dtf",
+     "front_dtfabric",
+     "chest_left_dtf",
+     "front_large_dtf"
+    ]
+   }
+  ]
+ },
+ "extra": []
+}

@@ -1,0 +1,1597 @@
+{
+ "data": [
+  {
+   "placement": "front",
+   "display_name": "Front print",
+   "technique": "cut-sew",
+   "print_area_width": 19,
+   "print_area_height": 19,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 12675,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12676,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12695,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 8",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12696,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 8",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12707,
+     "category_name": "Halloween",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12708,
+     "category_name": "Halloween",
+     "view_name": "Front 2",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12709,
+     "category_name": "Halloween",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12710,
+     "category_name": "Halloween",
+     "view_name": "Back 2",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12719,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12722,
+     "category_name": "Lifestyle 3",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12725,
+     "category_name": "Lifestyle 4",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12728,
+     "category_name": "Lifestyle 5",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12731,
+     "category_name": "Lifestyle 2",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12734,
+     "category_name": "Lifestyle 3",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12737,
+     "category_name": "Lifestyle 4",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12740,
+     "category_name": "Lifestyle 5",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21924,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21926,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21928,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 1",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21930,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 2",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21932,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 3",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21934,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 4",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21936,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 5",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21938,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 6",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21940,
+     "category_name": "Person",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 22368,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 3",
+     "restricted_to_variants": [
+      4532
+     ]
+    }
+   ]
+  },
+  {
+   "placement": "front",
+   "display_name": "Front print",
+   "technique": "cut-sew",
+   "print_area_width": 21,
+   "print_area_height": 13,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 12677,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12678,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12697,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 8",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12698,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 8",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12711,
+     "category_name": "Halloween",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12712,
+     "category_name": "Halloween",
+     "view_name": "Front 2",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12713,
+     "category_name": "Halloween",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12714,
+     "category_name": "Halloween",
+     "view_name": "Back 2",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12720,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12723,
+     "category_name": "Lifestyle 3",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12726,
+     "category_name": "Lifestyle 4",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12729,
+     "category_name": "Lifestyle 5",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12732,
+     "category_name": "Lifestyle 2",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12735,
+     "category_name": "Lifestyle 3",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12738,
+     "category_name": "Lifestyle 4",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12741,
+     "category_name": "Lifestyle 5",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21925,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21927,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21929,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 1",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21931,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 2",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21933,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 3",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21937,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 5",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21939,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 6",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21941,
+     "category_name": "Person",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    }
+   ]
+  },
+  {
+   "placement": "back",
+   "display_name": "Back print",
+   "technique": "cut-sew",
+   "print_area_width": 19,
+   "print_area_height": 19,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 12675,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12676,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12695,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 8",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12696,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 8",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12707,
+     "category_name": "Halloween",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12708,
+     "category_name": "Halloween",
+     "view_name": "Front 2",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12709,
+     "category_name": "Halloween",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12710,
+     "category_name": "Halloween",
+     "view_name": "Back 2",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12719,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12722,
+     "category_name": "Lifestyle 3",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12725,
+     "category_name": "Lifestyle 4",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12728,
+     "category_name": "Lifestyle 5",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12731,
+     "category_name": "Lifestyle 2",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12734,
+     "category_name": "Lifestyle 3",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12737,
+     "category_name": "Lifestyle 4",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 12740,
+     "category_name": "Lifestyle 5",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21924,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21926,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21928,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 1",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21930,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 2",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21932,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 3",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21934,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 4",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21936,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 5",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21938,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 6",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 21940,
+     "category_name": "Person",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 22364,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 1",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 22366,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 2",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 22368,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 3",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 22370,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 4",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 22371,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 5",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 22373,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 6",
+     "restricted_to_variants": [
+      4532
+     ]
+    },
+    {
+     "id": 22375,
+     "category_name": "Person",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      4532
+     ]
+    }
+   ]
+  },
+  {
+   "placement": "back",
+   "display_name": "Back print",
+   "technique": "cut-sew",
+   "print_area_width": 21,
+   "print_area_height": 13,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 12677,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12678,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12697,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 8",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12698,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 8",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12711,
+     "category_name": "Halloween",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12712,
+     "category_name": "Halloween",
+     "view_name": "Front 2",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12713,
+     "category_name": "Halloween",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12714,
+     "category_name": "Halloween",
+     "view_name": "Back 2",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12720,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12723,
+     "category_name": "Lifestyle 3",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12726,
+     "category_name": "Lifestyle 4",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12729,
+     "category_name": "Lifestyle 5",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12732,
+     "category_name": "Lifestyle 2",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12735,
+     "category_name": "Lifestyle 3",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12738,
+     "category_name": "Lifestyle 4",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 12741,
+     "category_name": "Lifestyle 5",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21925,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21927,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21929,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 1",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21931,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 2",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21933,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 3",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21937,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 5",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21939,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 6",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 21941,
+     "category_name": "Person",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 22365,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 1",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 22367,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 2",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 22369,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 3",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 22372,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 5",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 22374,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 6",
+     "restricted_to_variants": [
+      9513
+     ]
+    },
+    {
+     "id": 22376,
+     "category_name": "Person",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      9513
+     ]
+    }
+   ]
+  },
+  {
+   "placement": "front",
+   "display_name": "Front print",
+   "technique": "cut-sew",
+   "print_area_width": 23,
+   "print_area_height": 23,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 12673,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12674,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12679,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12680,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12681,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 1",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12682,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 2",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12683,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 3",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12684,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 4",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12685,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 5",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12686,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 6",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12687,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 1",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12688,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 2",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12689,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 3",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12690,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 4",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12691,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 5",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12692,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 6",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12693,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 8",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12694,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 8",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12699,
+     "category_name": "Person",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12700,
+     "category_name": "Person",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12715,
+     "category_name": "Halloween",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12716,
+     "category_name": "Halloween",
+     "view_name": "Front 2",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12717,
+     "category_name": "Halloween",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12718,
+     "category_name": "Halloween",
+     "view_name": "Back 2",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12721,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12724,
+     "category_name": "Lifestyle 3",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12727,
+     "category_name": "Lifestyle 4",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12730,
+     "category_name": "Lifestyle 5",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12733,
+     "category_name": "Lifestyle 2",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12736,
+     "category_name": "Lifestyle 3",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12739,
+     "category_name": "Lifestyle 4",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12742,
+     "category_name": "Lifestyle 5",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    }
+   ]
+  },
+  {
+   "placement": "back",
+   "display_name": "Back print",
+   "technique": "cut-sew",
+   "print_area_width": 23,
+   "print_area_height": 23,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 12673,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12674,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12679,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12680,
+     "category_name": "Flat Lifestyle",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12681,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 1",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12682,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 2",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12683,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 3",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12684,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 4",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12685,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 5",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12686,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 6",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12687,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 1",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12688,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 2",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12689,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 3",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12690,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 4",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12691,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 5",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12692,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 6",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12693,
+     "category_name": "Lifestyle",
+     "view_name": "Front Lifestyle 8",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12694,
+     "category_name": "Lifestyle",
+     "view_name": "Back Lifestyle 8",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12699,
+     "category_name": "Person",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12700,
+     "category_name": "Person",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12715,
+     "category_name": "Halloween",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12716,
+     "category_name": "Halloween",
+     "view_name": "Front 2",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12717,
+     "category_name": "Halloween",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12718,
+     "category_name": "Halloween",
+     "view_name": "Back 2",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12721,
+     "category_name": "Lifestyle 2",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12724,
+     "category_name": "Lifestyle 3",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12727,
+     "category_name": "Lifestyle 4",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12730,
+     "category_name": "Lifestyle 5",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12733,
+     "category_name": "Lifestyle 2",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12736,
+     "category_name": "Lifestyle 3",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12739,
+     "category_name": "Lifestyle 4",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    },
+    {
+     "id": 12742,
+     "category_name": "Lifestyle 5",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      11075
+     ]
+    }
+   ]
+  },
+  {
+   "placement": "front",
+   "display_name": "Front print",
+   "technique": "cut-sew",
+   "print_area_width": 15,
+   "print_area_height": 15,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 31042,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      49853
+     ]
+    },
+    {
+     "id": 31050,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      49853
+     ]
+    }
+   ]
+  },
+  {
+   "placement": "back",
+   "display_name": "Back print",
+   "technique": "cut-sew",
+   "print_area_width": 15,
+   "print_area_height": 15,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 31042,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      49853
+     ]
+    },
+    {
+     "id": 31050,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      49853
+     ]
+    }
+   ]
+  },
+  {
+   "placement": "front",
+   "display_name": "Front print",
+   "technique": "cut-sew",
+   "print_area_width": 17,
+   "print_area_height": 17,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 31049,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      49854
+     ]
+    },
+    {
+     "id": 31051,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      49854
+     ]
+    }
+   ]
+  },
+  {
+   "placement": "back",
+   "display_name": "Back print",
+   "technique": "cut-sew",
+   "print_area_width": 17,
+   "print_area_height": 17,
+   "print_area_type": "simple",
+   "dpi": 150,
+   "mockup_styles": [
+    {
+     "id": 31049,
+     "category_name": "Default",
+     "view_name": "Front",
+     "restricted_to_variants": [
+      49854
+     ]
+    },
+    {
+     "id": 31051,
+     "category_name": "Default",
+     "view_name": "Back",
+     "restricted_to_variants": [
+      49854
+     ]
+    }
+   ]
+  }
+ ],
+ "extra": [],
+ "paging": {
+  "total": 10,
+  "limit": 10,
+  "offset": 0
+ },
+ "_links": {
+  "self": {
+   "href": "https://api.printful.com/v2/catalog-products/83/mockup-styles?limit=10"
+  }
+ }
+}

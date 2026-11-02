@@ -1,0 +1,168 @@
+{
+ "code": 200,
+ "result": {
+  "product_id": 1590,
+  "available_placements": {
+   "front_dtfabric": "Front print",
+   "back_dtfabric": "Back print",
+   "sleeve_left_dtfabric": "Left sleeve",
+   "sleeve_right_dtfabric": "Right sleeve",
+   "label_panel_dtfabric": "Label panel",
+   "label_inside_dtfabric": "Inside label"
+  },
+  "printfiles": [
+   {
+    "printfile_id": 1333,
+    "width": 375,
+    "height": 150,
+    "dpi": 150,
+    "fill_mode": "fit",
+    "can_rotate": false
+   },
+   {
+    "printfile_id": 1954,
+    "width": 6600,
+    "height": 8100,
+    "dpi": 150,
+    "fill_mode": "cover",
+    "can_rotate": false
+   }
+  ],
+  "variant_printfiles": [
+   {
+    "variant_id": 51480,
+    "placements": {
+     "front_dtfabric": 1954,
+     "back_dtfabric": 1954,
+     "sleeve_left_dtfabric": 1954,
+     "sleeve_right_dtfabric": 1954,
+     "label_panel_dtfabric": 1954,
+     "label_inside_dtfabric": 1333
+    }
+   },
+   {
+    "variant_id": 51481,
+    "placements": {
+     "front_dtfabric": 1954,
+     "back_dtfabric": 1954,
+     "sleeve_left_dtfabric": 1954,
+     "sleeve_right_dtfabric": 1954,
+     "label_panel_dtfabric": 1954,
+     "label_inside_dtfabric": 1333
+    }
+   },
+   {
+    "variant_id": 51482,
+    "placements": {
+     "front_dtfabric": 1954,
+     "back_dtfabric": 1954,
+     "sleeve_left_dtfabric": 1954,
+     "sleeve_right_dtfabric": 1954,
+     "label_panel_dtfabric": 1954,
+     "label_inside_dtfabric": 1333
+    }
+   },
+   {
+    "variant_id": 51483,
+    "placements": {
+     "front_dtfabric": 1954,
+     "back_dtfabric": 1954,
+     "sleeve_left_dtfabric": 1954,
+     "sleeve_right_dtfabric": 1954,
+     "label_panel_dtfabric": 1954,
+     "label_inside_dtfabric": 1333
+    }
+   },
+   {
+    "variant_id": 51484,
+    "placements": {
+     "front_dtfabric": 1954,
+     "back_dtfabric": 1954,
+     "sleeve_left_dtfabric": 1954,
+     "sleeve_right_dtfabric": 1954,
+     "label_panel_dtfabric": 1954,
+     "label_inside_dtfabric": 1333
+    }
+   },
+   {
+    "variant_id": 51485,
+    "placements": {
+     "front_dtfabric": 1954,
+     "back_dtfabric": 1954,
+     "sleeve_left_dtfabric": 1954,
+     "sleeve_right_dtfabric": 1954,
+     "label_panel_dtfabric": 1954,
+     "label_inside_dtfabric": 1333
+    }
+   },
+   {
+    "variant_id": 51486,
+    "placements": {
+     "front_dtfabric": 1954,
+     "back_dtfabric": 1954,
+     "sleeve_left_dtfabric": 1954,
+     "sleeve_right_dtfabric": 1954,
+     "label_panel_dtfabric": 1954,
+     "label_inside_dtfabric": 1333
+    }
+   },
+   {
+    "variant_id": 51487,
+    "placements": {
+     "front_dtfabric": 1954,
+     "back_dtfabric": 1954,
+     "sleeve_left_dtfabric": 1954,
+     "sleeve_right_dtfabric": 1954,
+     "label_panel_dtfabric": 1954,
+     "label_inside_dtfabric": 1333
+    }
+   },
+   {
+    "variant_id": 51488,
+    "placements": {
+     "front_dtfabric": 1954,
+     "back_dtfabric": 1954,
+     "sleeve_left_dtfabric": 1954,
+     "sleeve_right_dtfabric": 1954,
+     "label_panel_dtfabric": 1954,
+     "label_inside_dtfabric": 1333
+    }
+   },
+   {
+    "variant_id": 51489,
+    "placements": {
+     "front_dtfabric": 1954,
+     "back_dtfabric": 1954,
+     "sleeve_left_dtfabric": 1954,
+     "sleeve_right_dtfabric": 1954,
+     "label_panel_dtfabric": 1954,
+     "label_inside_dtfabric": 1333
+    }
+   },
+   {
+    "variant_id": 51490,
+    "placements": {
+     "front_dtfabric": 1954,
+     "back_dtfabric": 1954,
+     "sleeve_left_dtfabric": 1954,
+     "sleeve_right_dtfabric": 1954,
+     "label_panel_dtfabric": 1954,
+     "label_inside_dtfabric": 1333
+    }
+   }
+  ],
+  "option_groups": [
+   "Flat",
+   "Template"
+  ],
+  "options": [
+   "Back",
+   "Front",
+   "Inside label",
+   "Label panel",
+   "Left",
+   "Right"
+  ]
+ },
+ "extra": []
+}

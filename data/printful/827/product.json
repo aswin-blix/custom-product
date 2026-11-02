@@ -1,0 +1,375 @@
+{
+ "code": 200,
+ "result": {
+  "product": {
+   "id": 827,
+   "main_category_id": 8,
+   "type": "CUT-SEW",
+   "description": "This silky pajama top is ideal for a cozy day when you want to feel both comfortable and elegant. It features a relaxed fit, chest pocket, and elegant piping detail.\n\n• 100% polyester\n• Fabric weight: 2.65 oz./yd.² (90 g/m²)\n• Relaxed fit\n• Chest pocket\n• Decorative piping around the collar, chest pocket, and cuffs\n• Blank product sourced from China",
+   "type_name": "All-Over Print Women's Long Sleeve Pajama Top",
+   "title": "All-Over Print Women's Long Sleeve Pajama Top",
+   "brand": null,
+   "model": "All-Over Print Women's Long Sleeve Pajama Top",
+   "image": "/printful/assets/6db2a5d417fa7ecd.png",
+   "variant_count": 12,
+   "currency": "USD",
+   "options": [
+    {
+     "id": "license_type",
+     "title": "License type",
+     "type": "multi_select",
+     "values": {
+      "CLC": "Collegiate Licensing Company",
+      "AFFINITY": "Affinity",
+      "BR": "BR",
+      "EX": "EX",
+      "NCAA": "NCAA",
+      "FAN": "Fan",
+      "BCOMPLY": "BrandComply",
+      "TAG": "Tag",
+      "DLH": "DLH",
+      "CORE81": "Core81"
+     },
+     "additional_price": null,
+     "additional_price_breakdown": []
+    }
+   ],
+   "dimensions": null,
+   "is_discontinued": false,
+   "avg_fulfillment_time": null,
+   "techniques": [
+    {
+     "key": "CUT-SEW",
+     "display_name": "All-over synthetic",
+     "is_default": true
+    }
+   ],
+   "files": [
+    {
+     "id": "default",
+     "type": "front",
+     "title": "Front print",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "back",
+     "type": "back",
+     "title": "Back print",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "details",
+     "type": "details",
+     "title": "Details",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "pocket",
+     "type": "pocket",
+     "title": "Pocket",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "sleeve_left",
+     "type": "sleeve_left",
+     "title": "Left sleeve",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "sleeve_right",
+     "type": "sleeve_right",
+     "title": "Right sleeve",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "label_inside",
+     "type": "label_inside",
+     "title": "Branding",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "preview",
+     "type": "mockup",
+     "title": "Mockup",
+     "additional_price": null,
+     "options": []
+    }
+   ],
+   "origin_country": null
+  },
+  "variants": [
+   {
+    "id": 20962,
+    "product_id": 827,
+    "name": "All-Over Print Women's Long Sleeve Pajama Top (Black / 2XL)",
+    "size": "2XL",
+    "color": "Black",
+    "color_code": "#000000",
+    "color_code2": null,
+    "image": "/printful/assets/5e7d8dc6db8b768d.jpg",
+    "price": "31.57",
+    "in_stock": true,
+    "availability_regions": {
+     "CN": "China"
+    },
+    "availability_status": [
+     {
+      "region": "CN",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 20958,
+    "product_id": 827,
+    "name": "All-Over Print Women's Long Sleeve Pajama Top (Black / L)",
+    "size": "L",
+    "color": "Black",
+    "color_code": "#000000",
+    "color_code2": null,
+    "image": "/printful/assets/b5df5a3d3014797f.jpg",
+    "price": "29.57",
+    "in_stock": true,
+    "availability_regions": {
+     "CN": "China"
+    },
+    "availability_status": [
+     {
+      "region": "CN",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 20956,
+    "product_id": 827,
+    "name": "All-Over Print Women's Long Sleeve Pajama Top (Black / M)",
+    "size": "M",
+    "color": "Black",
+    "color_code": "#000000",
+    "color_code2": null,
+    "image": "/printful/assets/088d45e82dd3657c.jpg",
+    "price": "29.57",
+    "in_stock": true,
+    "availability_regions": {
+     "CN": "China"
+    },
+    "availability_status": [
+     {
+      "region": "CN",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 20954,
+    "product_id": 827,
+    "name": "All-Over Print Women's Long Sleeve Pajama Top (Black / S)",
+    "size": "S",
+    "color": "Black",
+    "color_code": "#000000",
+    "color_code2": null,
+    "image": "/printful/assets/e7ff20f560b72a92.jpg",
+    "price": "29.57",
+    "in_stock": true,
+    "availability_regions": {
+     "CN": "China"
+    },
+    "availability_status": [
+     {
+      "region": "CN",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 20960,
+    "product_id": 827,
+    "name": "All-Over Print Women's Long Sleeve Pajama Top (Black / XL)",
+    "size": "XL",
+    "color": "Black",
+    "color_code": "#000000",
+    "color_code2": null,
+    "image": "/printful/assets/4e650f10b99194a0.jpg",
+    "price": "29.57",
+    "in_stock": true,
+    "availability_regions": {
+     "CN": "China"
+    },
+    "availability_status": [
+     {
+      "region": "CN",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 20952,
+    "product_id": 827,
+    "name": "All-Over Print Women's Long Sleeve Pajama Top (Black / XS)",
+    "size": "XS",
+    "color": "Black",
+    "color_code": "#000000",
+    "color_code2": null,
+    "image": "/printful/assets/556849895c113f5e.jpg",
+    "price": "29.57",
+    "in_stock": true,
+    "availability_regions": {
+     "CN": "China"
+    },
+    "availability_status": [
+     {
+      "region": "CN",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 20963,
+    "product_id": 827,
+    "name": "All-Over Print Women's Long Sleeve Pajama Top (White / 2XL)",
+    "size": "2XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/b6c989ea4735b03d.jpg",
+    "price": "31.57",
+    "in_stock": true,
+    "availability_regions": {
+     "CN": "China"
+    },
+    "availability_status": [
+     {
+      "region": "CN",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 20959,
+    "product_id": 827,
+    "name": "All-Over Print Women's Long Sleeve Pajama Top (White / L)",
+    "size": "L",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/265d9a67b7aa1c6a.jpg",
+    "price": "29.57",
+    "in_stock": true,
+    "availability_regions": {
+     "CN": "China"
+    },
+    "availability_status": [
+     {
+      "region": "CN",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 20957,
+    "product_id": 827,
+    "name": "All-Over Print Women's Long Sleeve Pajama Top (White / M)",
+    "size": "M",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/275ac1de4ac0288a.jpg",
+    "price": "29.57",
+    "in_stock": true,
+    "availability_regions": {
+     "CN": "China"
+    },
+    "availability_status": [
+     {
+      "region": "CN",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 20955,
+    "product_id": 827,
+    "name": "All-Over Print Women's Long Sleeve Pajama Top (White / S)",
+    "size": "S",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/9bfacde4e4b5fb44.jpg",
+    "price": "29.57",
+    "in_stock": true,
+    "availability_regions": {
+     "CN": "China"
+    },
+    "availability_status": [
+     {
+      "region": "CN",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 20961,
+    "product_id": 827,
+    "name": "All-Over Print Women's Long Sleeve Pajama Top (White / XL)",
+    "size": "XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/82b3c7898a639d8a.jpg",
+    "price": "29.57",
+    "in_stock": true,
+    "availability_regions": {
+     "CN": "China"
+    },
+    "availability_status": [
+     {
+      "region": "CN",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 20953,
+    "product_id": 827,
+    "name": "All-Over Print Women's Long Sleeve Pajama Top (White / XS)",
+    "size": "XS",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/e06cea40020b6a07.jpg",
+    "price": "29.57",
+    "in_stock": true,
+    "availability_regions": {
+     "CN": "China"
+    },
+    "availability_status": [
+     {
+      "region": "CN",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   }
+  ]
+ },
+ "extra": []
+}

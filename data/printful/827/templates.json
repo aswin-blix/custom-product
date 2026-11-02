@@ -1,0 +1,676 @@
+{
+ "code": 200,
+ "result": {
+  "version": 100,
+  "variant_mapping": [
+   {
+    "variant_id": 20952,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 574448
+     },
+     {
+      "placement": "back",
+      "template_id": 574444
+     },
+     {
+      "placement": "details",
+      "template_id": 574446
+     },
+     {
+      "placement": "pocket",
+      "template_id": 574454
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 574452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 574456
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 574450
+     }
+    ]
+   },
+   {
+    "variant_id": 20954,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 574448
+     },
+     {
+      "placement": "back",
+      "template_id": 574444
+     },
+     {
+      "placement": "details",
+      "template_id": 574446
+     },
+     {
+      "placement": "pocket",
+      "template_id": 574454
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 574452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 574456
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 574450
+     }
+    ]
+   },
+   {
+    "variant_id": 20956,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 574448
+     },
+     {
+      "placement": "back",
+      "template_id": 574444
+     },
+     {
+      "placement": "details",
+      "template_id": 574446
+     },
+     {
+      "placement": "pocket",
+      "template_id": 574454
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 574452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 574456
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 574450
+     }
+    ]
+   },
+   {
+    "variant_id": 20958,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 574448
+     },
+     {
+      "placement": "back",
+      "template_id": 574444
+     },
+     {
+      "placement": "details",
+      "template_id": 574446
+     },
+     {
+      "placement": "pocket",
+      "template_id": 574454
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 574452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 574456
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 574450
+     }
+    ]
+   },
+   {
+    "variant_id": 20960,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 574448
+     },
+     {
+      "placement": "back",
+      "template_id": 574444
+     },
+     {
+      "placement": "details",
+      "template_id": 574446
+     },
+     {
+      "placement": "pocket",
+      "template_id": 574454
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 574452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 574456
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 574450
+     }
+    ]
+   },
+   {
+    "variant_id": 20962,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 574448
+     },
+     {
+      "placement": "back",
+      "template_id": 574444
+     },
+     {
+      "placement": "details",
+      "template_id": 574446
+     },
+     {
+      "placement": "pocket",
+      "template_id": 574454
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 574452
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 574456
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 574450
+     }
+    ]
+   },
+   {
+    "variant_id": 20953,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 574449
+     },
+     {
+      "placement": "back",
+      "template_id": 574445
+     },
+     {
+      "placement": "details",
+      "template_id": 574447
+     },
+     {
+      "placement": "pocket",
+      "template_id": 574455
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 574453
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 574457
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 574451
+     }
+    ]
+   },
+   {
+    "variant_id": 20955,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 574449
+     },
+     {
+      "placement": "back",
+      "template_id": 574445
+     },
+     {
+      "placement": "details",
+      "template_id": 574447
+     },
+     {
+      "placement": "pocket",
+      "template_id": 574455
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 574453
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 574457
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 574451
+     }
+    ]
+   },
+   {
+    "variant_id": 20957,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 574449
+     },
+     {
+      "placement": "back",
+      "template_id": 574445
+     },
+     {
+      "placement": "details",
+      "template_id": 574447
+     },
+     {
+      "placement": "pocket",
+      "template_id": 574455
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 574453
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 574457
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 574451
+     }
+    ]
+   },
+   {
+    "variant_id": 20959,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 574449
+     },
+     {
+      "placement": "back",
+      "template_id": 574445
+     },
+     {
+      "placement": "details",
+      "template_id": 574447
+     },
+     {
+      "placement": "pocket",
+      "template_id": 574455
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 574453
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 574457
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 574451
+     }
+    ]
+   },
+   {
+    "variant_id": 20961,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 574449
+     },
+     {
+      "placement": "back",
+      "template_id": 574445
+     },
+     {
+      "placement": "details",
+      "template_id": 574447
+     },
+     {
+      "placement": "pocket",
+      "template_id": 574455
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 574453
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 574457
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 574451
+     }
+    ]
+   },
+   {
+    "variant_id": 20963,
+    "templates": [
+     {
+      "placement": "front",
+      "template_id": 574449
+     },
+     {
+      "placement": "back",
+      "template_id": 574445
+     },
+     {
+      "placement": "details",
+      "template_id": 574447
+     },
+     {
+      "placement": "pocket",
+      "template_id": 574455
+     },
+     {
+      "placement": "sleeve_left",
+      "template_id": 574453
+     },
+     {
+      "placement": "sleeve_right",
+      "template_id": 574457
+     },
+     {
+      "placement": "label_inside",
+      "template_id": 574451
+     }
+    ]
+   }
+  ],
+  "templates": [
+   {
+    "template_id": 574448,
+    "image_url": "/printful/assets/941bdd78a187f5c9.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 711,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2121,
+    "print_area_height": 2474,
+    "print_area_top": 263,
+    "print_area_left": 440,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574444,
+    "image_url": "/printful/assets/4863b1552b9ace3e.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 711,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2121,
+    "print_area_height": 2474,
+    "print_area_top": 263,
+    "print_area_left": 440,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574446,
+    "image_url": "/printful/assets/c7726d918382bdc9.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 711,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2121,
+    "print_area_height": 2474,
+    "print_area_top": 263,
+    "print_area_left": 440,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574454,
+    "image_url": "/printful/assets/329c5210b8487813.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 712,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2979,
+    "print_area_height": 994,
+    "print_area_top": 1024,
+    "print_area_left": 11,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574452,
+    "image_url": "/printful/assets/0756e9fe987eacf5.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 711,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2121,
+    "print_area_height": 2474,
+    "print_area_top": 263,
+    "print_area_left": 440,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574456,
+    "image_url": "/printful/assets/1ea59dad502b39f3.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 711,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2121,
+    "print_area_height": 2474,
+    "print_area_top": 263,
+    "print_area_left": 440,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574450,
+    "image_url": "/printful/assets/953ebcfa330ea5dd.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 356,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2082,
+    "print_area_height": 1185,
+    "print_area_top": 907,
+    "print_area_left": 459,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574449,
+    "image_url": "/printful/assets/941bdd78a187f5c9.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 711,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2121,
+    "print_area_height": 2474,
+    "print_area_top": 263,
+    "print_area_left": 440,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574445,
+    "image_url": "/printful/assets/4863b1552b9ace3e.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 711,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2121,
+    "print_area_height": 2474,
+    "print_area_top": 263,
+    "print_area_left": 440,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574447,
+    "image_url": "/printful/assets/c7726d918382bdc9.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 711,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2121,
+    "print_area_height": 2474,
+    "print_area_top": 263,
+    "print_area_left": 440,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574455,
+    "image_url": "/printful/assets/329c5210b8487813.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 712,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2979,
+    "print_area_height": 994,
+    "print_area_top": 1024,
+    "print_area_left": 11,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574453,
+    "image_url": "/printful/assets/0756e9fe987eacf5.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 711,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2121,
+    "print_area_height": 2474,
+    "print_area_top": 263,
+    "print_area_left": 440,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574457,
+    "image_url": "/printful/assets/1ea59dad502b39f3.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 711,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2121,
+    "print_area_height": 2474,
+    "print_area_top": 263,
+    "print_area_left": 440,
+    "is_template_on_front": true,
+    "orientation": "any"
+   },
+   {
+    "template_id": 574451,
+    "image_url": "/printful/assets/953ebcfa330ea5dd.png",
+    "background_url": null,
+    "background_color": "#ffffff",
+    "printfile_id": 356,
+    "template_width": 3000,
+    "template_height": 3000,
+    "print_area_width": 2082,
+    "print_area_height": 1185,
+    "print_area_top": 907,
+    "print_area_left": 459,
+    "is_template_on_front": true,
+    "orientation": "any"
+   }
+  ],
+  "min_dpi": 75,
+  "conflicting_placements": [
+   {
+    "placement": "front",
+    "conflicts": [
+     "front_large",
+     "front_dtf",
+     "front_dtfabric",
+     "chest_left_dtf",
+     "front_large_dtf"
+    ]
+   },
+   {
+    "placement": "back",
+    "conflicts": [
+     "label_outside_dtf",
+     "back_dtf",
+     "back_large",
+     "back_large_dtf",
+     "back_dtfabric"
+    ]
+   },
+   {
+    "placement": "pocket",
+    "conflicts": [
+     "pocket_dtfabric"
+    ]
+   },
+   {
+    "placement": "sleeve_left",
+    "conflicts": [
+     "long_sleeve_left_dtf",
+     "short_sleeve_left_dtf",
+     "embroidery_wrist_right",
+     "embroidery_wrist_left",
+     "embroidery_sleeve_left_top",
+     "embroidery_sleeve_right_top"
+    ]
+   },
+   {
+    "placement": "sleeve_right",
+    "conflicts": [
+     "long_sleeve_right_dtf",
+     "short_sleeve_right_dtf",
+     "embroidery_wrist_right",
+     "embroidery_wrist_left",
+     "embroidery_sleeve_left_top",
+     "embroidery_sleeve_right_top",
+     "sleeve_right_dtfabric"
+    ]
+   },
+   {
+    "placement": "label_inside",
+    "conflicts": [
+     "label_outside_dtf",
+     "label_inside_dtf"
+    ]
+   }
+  ]
+ },
+ "extra": []
+}

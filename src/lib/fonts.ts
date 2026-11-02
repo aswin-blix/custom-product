@@ -33,11 +33,7 @@ export const FONT_COMBOS: FontCombo[] = [
 
 export const QUOTES = ["Burn bright", "Don't live in the past", "better an OOPS than a what if", "Good vibes only", "Stay salty", "Game day"];
 
-export function googleFontsHref() {
-  const families = ["Lobster", "Pacifico", "Bebas+Neue", "Oswald:wght@400;700", "Anton", "Playfair+Display:wght@400;700", "Dancing+Script", "Montserrat:wght@400;700", "Permanent+Marker", "Abril+Fatface"];
-  return `https://fonts.googleapis.com/css2?${families.map((f) => `family=${f}`).join("&")}&display=swap`;
-}
-
+/** Fonts are self-hosted from /public/fonts (see scripts/fetch-fonts.mjs → src/app/fonts.css). */
 export async function ensureFont(family: string, weight = "400") {
   if (typeof document === "undefined" || !("fonts" in document)) return;
   try {

@@ -1,0 +1,364 @@
+{
+ "code": 200,
+ "result": {
+  "product": {
+   "id": 1367,
+   "main_category_id": 24,
+   "type": "CUT-SEW",
+   "description": "A breathable football jersey with silky top fabric and heavy mesh bottom. Moisture-wicking, 2-way stretch, and relaxed fit.\n\n• 2 premium fabrics – silky stretch top, breathable mesh bottom\n• Moisture-wicking and durable\n• Relaxed fit for athletes and street style\n• Blank product materials sourced from China",
+   "type_name": "All-Over Print Boxy Football Jersey",
+   "title": "All-Over Print Boxy Football Jersey",
+   "brand": null,
+   "model": "All-Over Print Boxy Football Jersey",
+   "image": "/printful/assets/e77827474ae3bac5.png",
+   "variant_count": 11,
+   "currency": "USD",
+   "options": [
+    {
+     "id": "stitch_color",
+     "title": "Stitch color",
+     "type": "radio",
+     "values": {
+      "white": "White",
+      "black": "Black"
+     },
+     "additional_price": null,
+     "additional_price_breakdown": []
+    },
+    {
+     "id": "license_type",
+     "title": "License type",
+     "type": "multi_select",
+     "values": {
+      "CLC": "Collegiate Licensing Company",
+      "AFFINITY": "Affinity",
+      "BR": "BR",
+      "EX": "EX",
+      "NCAA": "NCAA",
+      "FAN": "Fan",
+      "BCOMPLY": "BrandComply",
+      "TAG": "Tag",
+      "DLH": "DLH",
+      "CORE81": "Core81"
+     },
+     "additional_price": null,
+     "additional_price_breakdown": []
+    }
+   ],
+   "dimensions": null,
+   "is_discontinued": false,
+   "avg_fulfillment_time": null,
+   "techniques": [
+    {
+     "key": "CUT-SEW",
+     "display_name": "All-over synthetic",
+     "is_default": true
+    }
+   ],
+   "files": [
+    {
+     "id": "default",
+     "type": "front",
+     "title": "Front print",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "back",
+     "type": "back",
+     "title": "Back print",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "sleeve_left",
+     "type": "sleeve_left",
+     "title": "Left sleeve",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "sleeve_right",
+     "type": "sleeve_right",
+     "title": "Right sleeve",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "label_inside",
+     "type": "label_inside",
+     "title": "Inside label",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "label_outside_front",
+     "type": "label_outside_front",
+     "title": "Outside label front",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "label_outside_back",
+     "type": "label_outside_back",
+     "title": "Outside label back",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "preview",
+     "type": "mockup",
+     "title": "Mockup",
+     "additional_price": null,
+     "options": []
+    }
+   ],
+   "origin_country": null
+  },
+  "variants": [
+   {
+    "id": 25464,
+    "product_id": 1367,
+    "name": "All-Over Print Boxy Football Jersey (White / 2XL)",
+    "size": "2XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/8fe6436af0e5441f.jpg",
+    "price": "39.74",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 25458,
+    "product_id": 1367,
+    "name": "All-Over Print Boxy Football Jersey (White / 2XS)",
+    "size": "2XS",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/8fe6436af0e5441f.jpg",
+    "price": "37.74",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 25465,
+    "product_id": 1367,
+    "name": "All-Over Print Boxy Football Jersey (White / 3XL)",
+    "size": "3XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/8fe6436af0e5441f.jpg",
+    "price": "41.74",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 25466,
+    "product_id": 1367,
+    "name": "All-Over Print Boxy Football Jersey (White / 4XL)",
+    "size": "4XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/8fe6436af0e5441f.jpg",
+    "price": "43.74",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 25467,
+    "product_id": 1367,
+    "name": "All-Over Print Boxy Football Jersey (White / 5XL)",
+    "size": "5XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/8fe6436af0e5441f.jpg",
+    "price": "45.74",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 25468,
+    "product_id": 1367,
+    "name": "All-Over Print Boxy Football Jersey (White / 6XL)",
+    "size": "6XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/8fe6436af0e5441f.jpg",
+    "price": "47.74",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 25462,
+    "product_id": 1367,
+    "name": "All-Over Print Boxy Football Jersey (White / L)",
+    "size": "L",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/8fe6436af0e5441f.jpg",
+    "price": "37.74",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 25461,
+    "product_id": 1367,
+    "name": "All-Over Print Boxy Football Jersey (White / M)",
+    "size": "M",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/8fe6436af0e5441f.jpg",
+    "price": "37.74",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 25460,
+    "product_id": 1367,
+    "name": "All-Over Print Boxy Football Jersey (White / S)",
+    "size": "S",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/8fe6436af0e5441f.jpg",
+    "price": "37.74",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 25463,
+    "product_id": 1367,
+    "name": "All-Over Print Boxy Football Jersey (White / XL)",
+    "size": "XL",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/8fe6436af0e5441f.jpg",
+    "price": "37.74",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 25459,
+    "product_id": 1367,
+    "name": "All-Over Print Boxy Football Jersey (White / XS)",
+    "size": "XS",
+    "color": "White",
+    "color_code": "#ffffff",
+    "color_code2": null,
+    "image": "/printful/assets/8fe6436af0e5441f.jpg",
+    "price": "37.74",
+    "in_stock": true,
+    "availability_regions": {
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   }
+  ]
+ },
+ "extra": []
+}

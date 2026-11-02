@@ -1,0 +1,257 @@
+{
+ "code": 200,
+ "result": {
+  "product": {
+   "id": 83,
+   "main_category_id": 258,
+   "type": "CUT-SEW",
+   "description": "A strategically placed accent can bring the whole room to life, and this pillow is just what you need to do that. What's more, the soft, machine-washable case with the shape-retaining insert is a joy to have long afternoon naps on.\n\n• 100% polyester case and insert\n• Fabric weight: 7.37 oz./yd.² (250 g/m²)\n• Hidden zipper\n• Machine-washable case\n• Shape-retaining polyester insert included (handwash only)\n• Blank product components in the US sourced from China and Mexico\n• Blank product components in the EU sourced from China and Poland",
+   "type_name": "All-Over Print | Basic Pillow",
+   "title": "All-Over Print Basic Pillow",
+   "brand": null,
+   "model": "All-Over Print | Basic Pillow",
+   "image": "/printful/assets/0fda8823f7fe730e.jpg",
+   "variant_count": 5,
+   "currency": "USD",
+   "options": [
+    {
+     "id": "stitch_color",
+     "title": "Zipper & Stitch color",
+     "type": "radio",
+     "values": {
+      "white": "White",
+      "black": "Black"
+     },
+     "additional_price": null,
+     "additional_price_breakdown": []
+    },
+    {
+     "id": "notes",
+     "title": "Printing notes",
+     "type": "text",
+     "values": null,
+     "additional_price": null,
+     "additional_price_breakdown": []
+    },
+    {
+     "id": "license_type",
+     "title": "License type",
+     "type": "multi_select",
+     "values": {
+      "CLC": "Collegiate Licensing Company",
+      "AFFINITY": "Affinity",
+      "BR": "BR",
+      "EX": "EX",
+      "NCAA": "NCAA",
+      "FAN": "Fan",
+      "BCOMPLY": "BrandComply",
+      "TAG": "Tag",
+      "DLH": "DLH",
+      "CORE81": "Core81"
+     },
+     "additional_price": null,
+     "additional_price_breakdown": []
+    }
+   ],
+   "dimensions": {
+    "default": "19x19"
+   },
+   "is_discontinued": false,
+   "avg_fulfillment_time": null,
+   "techniques": [
+    {
+     "key": "CUT-SEW",
+     "display_name": "All-over synthetic",
+     "is_default": true
+    }
+   ],
+   "files": [
+    {
+     "id": "default",
+     "type": "front",
+     "title": "Front print",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "back",
+     "type": "back",
+     "title": "Back print",
+     "additional_price": null,
+     "options": []
+    },
+    {
+     "id": "preview",
+     "type": "mockup",
+     "title": "Mockup",
+     "additional_price": null,
+     "options": []
+    }
+   ],
+   "origin_country": null
+  },
+  "variants": [
+   {
+    "id": 49853,
+    "product_id": 83,
+    "name": "All-Over Print Basic Pillow 14″×14″",
+    "size": "14″×14″",
+    "color": null,
+    "color_code": null,
+    "color_code2": null,
+    "image": "/printful/assets/a5fe80c67feef0e6.jpg",
+    "price": "13.50",
+    "in_stock": true,
+    "availability_regions": {
+     "EU": "Europe",
+     "EU_LV": "Latvia",
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "EU",
+      "status": "in_stock"
+     },
+     {
+      "region": "EU_LV",
+      "status": "in_stock"
+     },
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 49854,
+    "product_id": 83,
+    "name": "All-Over Print Basic Pillow 16″×16″",
+    "size": "16″×16″",
+    "color": null,
+    "color_code": null,
+    "color_code2": null,
+    "image": "/printful/assets/46fe1f5002e66869.jpg",
+    "price": "14.50",
+    "in_stock": true,
+    "availability_regions": {
+     "EU": "Europe",
+     "EU_LV": "Latvia",
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "EU",
+      "status": "in_stock"
+     },
+     {
+      "region": "EU_LV",
+      "status": "in_stock"
+     },
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 4532,
+    "product_id": 83,
+    "name": "All-Over Print Basic Pillow 18″×18″",
+    "size": "18″×18″",
+    "color": null,
+    "color_code": null,
+    "color_code2": null,
+    "image": "/printful/assets/64577a70e192b40a.jpg",
+    "price": "17.50",
+    "in_stock": true,
+    "availability_regions": {
+     "EU": "Europe",
+     "EU_LV": "Latvia",
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "EU",
+      "status": "in_stock"
+     },
+     {
+      "region": "EU_LV",
+      "status": "in_stock"
+     },
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 9513,
+    "product_id": 83,
+    "name": "All-Over Print Basic Pillow 20″×12″",
+    "size": "20″×12″",
+    "color": null,
+    "color_code": null,
+    "color_code2": null,
+    "image": "/printful/assets/9a7b4dd29ad1b174.jpg",
+    "price": "16.50",
+    "in_stock": true,
+    "availability_regions": {
+     "EU": "Europe",
+     "EU_LV": "Latvia",
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "EU",
+      "status": "in_stock"
+     },
+     {
+      "region": "EU_LV",
+      "status": "in_stock"
+     },
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   },
+   {
+    "id": 11075,
+    "product_id": 83,
+    "name": "All-Over Print Basic Pillow 22″×22″",
+    "size": "22″×22″",
+    "color": null,
+    "color_code": null,
+    "color_code2": null,
+    "image": "/printful/assets/d5a8aeec05ca85aa.jpg",
+    "price": "19.95",
+    "in_stock": true,
+    "availability_regions": {
+     "EU": "Europe",
+     "EU_LV": "Latvia",
+     "US": "United States"
+    },
+    "availability_status": [
+     {
+      "region": "EU",
+      "status": "in_stock"
+     },
+     {
+      "region": "EU_LV",
+      "status": "in_stock"
+     },
+     {
+      "region": "US",
+      "status": "in_stock"
+     }
+    ],
+    "material": []
+   }
+  ]
+ },
+ "extra": []
+}
