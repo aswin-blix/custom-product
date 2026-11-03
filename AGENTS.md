@@ -235,9 +235,18 @@ size `W×zoom, H×zoom`; the template `<img>` covers the wrapper
 (`pointer-events:none`). Without a template the generated outline from
 `templates.ts` is drawn as an inline SVG instead.
 
-## 9. Mockups (three tiers, in display order)
+## 9. Mockups (four tiers, in display order)
 
-1. **Local photo mockups** (`src/lib/photoMockup.ts`, `PhotoMockups.tsx`) —
+0. **Product-photo previews** (`src/lib/photoPreview.ts`, `photoPreviewConfig.ts`,
+   `PhotoPreviewCanvas.tsx`) — the default "preview on the real product",
+   fully offline, no capture step. Each placement's print file is projected
+   through a hand-authored bilinear quad (`quad` = TL,TR,BR,BL photo px;
+   `uv` = the panel's sub-rect of the print file) onto the snapshot photo,
+   clipped to a polygon `mask` ∩ light/unsaturated pixels (`surface`), then
+   multiplied by the photo so folds/seams/shadows remain. Tune coordinates
+   with the lab page `/dev/preview/<slug>` (labelled 50 px grid + a numbered
+   test print per placement). Photos are 700×1000 (jpg) or 600×600 (png).
+1. **Captured displacement mockups** (`src/lib/photoMockup.ts`, `PhotoMockups.tsx`) —
    the default on Vercel, zero API at runtime. Assets per product live in
    `public/mockups/<id>/`: `manifest.json` (views, placement index order,
    `markerStep`), `<view>.jpg` (white-print render = shading) and
@@ -305,3 +314,13 @@ above is the highest-value next step.
 - No persistence of designs (localStorage/DB) and no real cart/checkout — the
   cart modal's payload is the handoff point for an order API.
 - Dev-only: the designer store is exposed as `window.__designer`.
+
+<!-- BEGIN:nextjs-agent-rules -->
+
+## This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
+<!-- END:nextjs-agent-rules -->

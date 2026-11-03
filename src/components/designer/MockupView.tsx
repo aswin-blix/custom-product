@@ -6,6 +6,8 @@ import { usePlacementPreviews } from "./hooks";
 import MockupCanvas from "./MockupCanvas";
 import FlatMockup from "./FlatMockupCanvas";
 import { PhotoMockupCanvas, useDesignSources, useMockupManifest } from "./PhotoMockups";
+import PhotoPreviewCanvas from "./PhotoPreviewCanvas";
+import { PHOTO_PREVIEWS } from "@/lib/photoPreviewConfig";
 import { placementTemplate, variantFor, EXPORT_DPI } from "@/lib/catalog";
 import { getCanvas, exportPrintFile, hasDesign } from "@/lib/engine";
 import type { MockupResult } from "@/lib/printful/types";
@@ -76,12 +78,20 @@ export default function MockupView() {
   const blank = useMemo(() => Object.fromEntries(Object.keys(prints).map((k) => [k, { dataUrl: null }])), [prints]);
 
   type Item = { id: string; label: string };
+  // real-product previews projected onto the snapshot photos (always offline)
+  const productViews = PHOTO_PREVIEWS[product.printfulId] ?? [];
+  const printUrls = useMemo(() => Object.fromEntries(Object.entries(prints).map(([k, v]) => [k, v.dataUrl])), [prints]);
+  const productItems: Item[] = productViews.map((v) => ({ id: `product-${v.id}`, label: v.label }));
   const photoItems: Item[] = manifest ? manifest.views.map((v) => ({ id: `photo-${v.id}`, label: v.label })) : [];
   const liveItems: Item[] = remote.state === "done" ? remote.items : [];
-  const list: Item[] = [...photoItems, ...liveItems, ...flat.map((f) => ({ id: f.id, label: f.label }))];
+  const list: Item[] = [...productItems, ...photoItems, ...liveItems, ...flat.map((f) => ({ id: f.id, label: f.label }))];
   const current = sel && list.some((l) => l.id === sel) ? sel : list[0]?.id;
 
   const render = (id: string, className: string) => {
+    if (id.startsWith("product-")) {
+      const view = productViews.find((v) => `product-${v.id}` === id);
+      if (view) return <PhotoPreviewCanvas view={view} prints={printUrls} className={className} />;
+    }
     if (manifest && id.startsWith("photo-")) {
       const view = manifest.views.find((v) => `photo-${v.id}` === id);
       if (view) return <PhotoMockupCanvas view={view} manifest={manifest} sources={sources} className={className} />;
@@ -109,9 +119,9 @@ export default function MockupView() {
             <Info className="mt-0.5 h-4 w-4 shrink-0 text-gray-500" /> {remote.reason}
           </div>
         )}
-        {manifest === null && photoItems.length === 0 && (
+        {manifest === null && photoItems.length === 0 && productItems.length === 0 && (
           <div className="mb-3 flex items-start gap-2 rounded-md bg-gray-100 px-3 py-2 text-[12px] text-gray-700">
-            <Info className="mt-0.5 h-4 w-4 shrink-0 text-gray-500" /> No photo mockups captured for this product yet (run <code className="mx-1">npm run mockup:capture</code>). Showing template previews.
+            <Info className="mt-0.5 h-4 w-4 shrink-0 text-gray-500" /> No product photo preview configured for this product yet. Showing template previews.
           </div>
         )}
         <div className="grid grid-cols-4 gap-3">

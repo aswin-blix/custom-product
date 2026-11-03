@@ -33,7 +33,14 @@ The loader prefers the snapshot; the live API is only used for a product that ha
 Generator (a remote renderer) — offline, the Mockups view shows previews built from the
 downloaded templates instead.
 
-## Photo mockups without the API (capture once, render locally)
+## Preview on the real product (offline, built in)
+
+The Mockups tab opens on a preview of the design projected onto the product photo
+(on-model for garments): each placement's print is warped onto a hand-authored region of the
+photo and multiplied with it, so folds, seams and shadows stay. Coordinates live in
+`src/lib/photoPreviewConfig.ts`; tune them visually at `/dev/preview/<slug>`.
+
+## Higher-fidelity photo mockups without the API (capture once, render locally)
 
 Printful's photo mockups are reproduced locally with a **displacement map captured once**
 from their generator: a white print gives the garment shading, a calibration print
