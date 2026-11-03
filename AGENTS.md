@@ -309,7 +309,19 @@ templates; commit the result.
 Automated tests do not exist yet — adding Playwright coverage of the walk
 above is the highest-value next step.
 
-## 12. Known gaps / ideas
+## 12. Status (2026-11-03) and how to continue
+
+- Latest commit on `main` is pushed to GitHub (`aswin-blix/custom-product`, public).
+- Everything runs offline: catalog snapshot, templates, photos, fonts and 72
+  captured mockup views (`public/mockups`, 75 MB) are committed.
+- **Pending:** Vercel deployment is done by the owner (dashboard import or
+  `npx vercel --prod`; no env vars). After it is live, verify in a browser:
+  product page → designer → Mockups (captured views first) → Add to cart, and
+  confirm the network panel shows only same-origin requests.
+- Dev servers may still be running from earlier sessions on ports 3050–3060;
+  kill stray `node` processes for this folder before `npm run dev`.
+
+## 13. Known gaps / ideas
 
 - Photo mockups must be captured once per product (see §9) — until then the
   Mockups tab shows template previews. 8-bit u/v gives ~1/256 sampling
