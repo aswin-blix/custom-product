@@ -1,0 +1,67 @@
+{
+ "productId": 1367,
+ "variantId": 25464,
+ "placements": [
+  {
+   "placement": "front",
+   "index": 1
+  },
+  {
+   "placement": "back",
+   "index": 2
+  },
+  {
+   "placement": "sleeve_left",
+   "index": 3
+  },
+  {
+   "placement": "sleeve_right",
+   "index": 4
+  }
+ ],
+ "markerStep": 24,
+ "views": [
+  {
+   "id": "main-front",
+   "label": "Front",
+   "photo": "/mockups/1367/main-front.jpg",
+   "uv": "/mockups/1367/main-front.png"
+  },
+  {
+   "id": "flat-front-front",
+   "label": "Flat · Front",
+   "photo": "/mockups/1367/flat-front-front.jpg",
+   "uv": "/mockups/1367/flat-front-front.png"
+  },
+  {
+   "id": "men-s-back-front",
+   "label": "Men's · Back",
+   "photo": "/mockups/1367/men-s-back-front.jpg",
+   "uv": "/mockups/1367/men-s-back-front.png"
+  },
+  {
+   "id": "men-s-front-front",
+   "label": "Men's · Front",
+   "photo": "/mockups/1367/men-s-front-front.jpg",
+   "uv": "/mockups/1367/men-s-front-front.png"
+  },
+  {
+   "id": "women-s-back-front",
+   "label": "Women's · Back",
+   "photo": "/mockups/1367/women-s-back-front.jpg",
+   "uv": "/mockups/1367/women-s-back-front.png"
+  },
+  {
+   "id": "women-s-front-front",
+   "label": "Women's · Front",
+   "photo": "/mockups/1367/women-s-front-front.jpg",
+   "uv": "/mockups/1367/women-s-front-front.png"
+  },
+  {
+   "id": "duet-front-and-back-front",
+   "label": "Duet · Front and Back",
+   "photo": "/mockups/1367/duet-front-and-back-front.jpg",
+   "uv": "/mockups/1367/duet-front-and-back-front.png"
+  }
+ ]
+}

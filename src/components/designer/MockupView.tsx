@@ -78,8 +78,8 @@ export default function MockupView() {
   const blank = useMemo(() => Object.fromEntries(Object.keys(prints).map((k) => [k, { dataUrl: null }])), [prints]);
 
   type Item = { id: string; label: string };
-  // real-product previews projected onto the snapshot photos (always offline)
-  const productViews = PHOTO_PREVIEWS[product.printfulId] ?? [];
+  // hand-authored product previews: only when no captured Printful views exist
+  const productViews = manifest ? [] : (PHOTO_PREVIEWS[product.printfulId] ?? []);
   const printUrls = useMemo(() => Object.fromEntries(Object.entries(prints).map(([k, v]) => [k, v.dataUrl])), [prints]);
   const productItems: Item[] = productViews.map((v) => ({ id: `product-${v.id}`, label: v.label }));
   const photoItems: Item[] = manifest ? manifest.views.map((v) => ({ id: `photo-${v.id}`, label: v.label })) : [];

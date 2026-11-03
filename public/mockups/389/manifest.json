@@ -1,0 +1,105 @@
+{
+ "productId": 389,
+ "variantId": 10876,
+ "placements": [
+  {
+   "placement": "front",
+   "index": 1
+  },
+  {
+   "placement": "top",
+   "index": 2
+  },
+  {
+   "placement": "bottom",
+   "index": 3
+  }
+ ],
+ "markerStep": 24,
+ "views": [
+  {
+   "id": "main-front",
+   "label": "Front",
+   "photo": "/mockups/389/main-front.jpg",
+   "uv": "/mockups/389/main-front.png"
+  },
+  {
+   "id": "default-left-front",
+   "label": "Default · Left",
+   "photo": "/mockups/389/default-left-front.jpg",
+   "uv": "/mockups/389/default-left-front.png"
+  },
+  {
+   "id": "default-right-front",
+   "label": "Default · Right",
+   "photo": "/mockups/389/default-right-front.jpg",
+   "uv": "/mockups/389/default-right-front.png"
+  },
+  {
+   "id": "lifestyle-1-front-front",
+   "label": "Lifestyle 1 · Front",
+   "photo": "/mockups/389/lifestyle-1-front-front.jpg",
+   "uv": "/mockups/389/lifestyle-1-front-front.png"
+  },
+  {
+   "id": "lifestyle-2-front-front",
+   "label": "Lifestyle 2 · Front",
+   "photo": "/mockups/389/lifestyle-2-front-front.jpg",
+   "uv": "/mockups/389/lifestyle-2-front-front.png"
+  },
+  {
+   "id": "boy-s-lifestyle-right-front-front",
+   "label": "Boy's Lifestyle · Right Front",
+   "photo": "/mockups/389/boy-s-lifestyle-right-front-front.jpg",
+   "uv": "/mockups/389/boy-s-lifestyle-right-front-front.png"
+  },
+  {
+   "id": "boy-s-lifestyle-left-front-front",
+   "label": "Boy's Lifestyle · Left Front",
+   "photo": "/mockups/389/boy-s-lifestyle-left-front-front.jpg",
+   "uv": "/mockups/389/boy-s-lifestyle-left-front-front.png"
+  },
+  {
+   "id": "boy-s-lifestyle-zoomed-in-front",
+   "label": "Boy's Lifestyle · Zoomed-in",
+   "photo": "/mockups/389/boy-s-lifestyle-zoomed-in-front.jpg",
+   "uv": "/mockups/389/boy-s-lifestyle-zoomed-in-front.png"
+  },
+  {
+   "id": "men-s-lifestyle-front-front",
+   "label": "Men's Lifestyle · Front",
+   "photo": "/mockups/389/men-s-lifestyle-front-front.jpg",
+   "uv": "/mockups/389/men-s-lifestyle-front-front.png"
+  },
+  {
+   "id": "men-s-lifestyle-right-front-front",
+   "label": "Men's Lifestyle · Right Front",
+   "photo": "/mockups/389/men-s-lifestyle-right-front-front.jpg",
+   "uv": "/mockups/389/men-s-lifestyle-right-front-front.png"
+  },
+  {
+   "id": "boy-s-lifestyle-2-front-front",
+   "label": "Boy's Lifestyle 2 · Front",
+   "photo": "/mockups/389/boy-s-lifestyle-2-front-front.jpg",
+   "uv": "/mockups/389/boy-s-lifestyle-2-front-front.png"
+  },
+  {
+   "id": "boy-s-lifestyle-2-right-front-front",
+   "label": "Boy's Lifestyle 2 · Right Front",
+   "photo": "/mockups/389/boy-s-lifestyle-2-right-front-front.jpg",
+   "uv": "/mockups/389/boy-s-lifestyle-2-right-front-front.png"
+  },
+  {
+   "id": "main-top",
+   "label": "Top",
+   "photo": "/mockups/389/main-top.jpg",
+   "uv": "/mockups/389/main-top.png"
+  },
+  {
+   "id": "main-bottom",
+   "label": "Bottom",
+   "photo": "/mockups/389/main-bottom.jpg",
+   "uv": "/mockups/389/main-bottom.png"
+  }
+ ]
+}

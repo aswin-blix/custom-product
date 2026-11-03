@@ -48,15 +48,17 @@ from their generator: a white print gives the garment shading, a calibration pri
 the design through that map — no network, same photos/folds/seams.
 
 ```bash
-npm run mockup:calibration                       # public/calibration/*.png (already committed)
-# deploy (or tunnel) so /calibration is public, then:
-npm run mockup:capture -- --base https://your-app.vercel.app   # needs PRINTFUL_API_KEY
-git add public/mockups && git commit -m "Capture photo mockups" && git push   # redeploy
+npm run mockup:calibration      # public/calibration/*.png (already committed)
+# the calibration files must be on a public URL — the GitHub repo itself works:
+npm run mockup:capture -- --base https://raw.githubusercontent.com/<owner>/<repo>/main/public
+#   options: --ids 301,83   --max-styles 6   --force true   (needs PRINTFUL_API_KEY; rate-limit aware, resumable)
+git add public/mockups && git commit -m "Capture photo mockups" && git push
 ```
 
-Output: `public/mockups/<id>/{manifest.json, <view>-photo.jpg, <view>-uv.png}` (~4 views per
-product). The Mockups tab shows these first, then template previews. Until a product is
-captured it shows template previews and says so.
+Output: `public/mockups/<id>/{manifest.json, <view>.jpg, <view>.png}` — every mockup family
+Printful offers for the product (on-model front/back/left/right, flat, lifestyle, …). The
+Mockups tab shows the hand-authored product preview, then these captured views, then template
+previews. The captured views are already committed for all six products.
 
 Optional live generator (Option A) stays available: set `NEXT_PUBLIC_PRINTFUL_LIVE_MOCKUPS=1`,
 `PRINTFUL_API_KEY` and `PUBLIC_BASE_URL`; it appears after the local previews.

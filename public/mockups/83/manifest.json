@@ -1,0 +1,161 @@
+{
+ "productId": 83,
+ "variantId": 4532,
+ "placements": [
+  {
+   "placement": "front",
+   "index": 1
+  },
+  {
+   "placement": "back",
+   "index": 2
+  }
+ ],
+ "markerStep": 24,
+ "views": [
+  {
+   "id": "main-front",
+   "label": "Front",
+   "photo": "/mockups/83/main-front.jpg",
+   "uv": "/mockups/83/main-front.png"
+  },
+  {
+   "id": "lifestyle-front-lifestyle-8-front",
+   "label": "Lifestyle · Front Lifestyle 8",
+   "photo": "/mockups/83/lifestyle-front-lifestyle-8-front.jpg",
+   "uv": "/mockups/83/lifestyle-front-lifestyle-8-front.png"
+  },
+  {
+   "id": "lifestyle-2-front-front",
+   "label": "Lifestyle 2 · Front",
+   "photo": "/mockups/83/lifestyle-2-front-front.jpg",
+   "uv": "/mockups/83/lifestyle-2-front-front.png"
+  },
+  {
+   "id": "lifestyle-3-front-front",
+   "label": "Lifestyle 3 · Front",
+   "photo": "/mockups/83/lifestyle-3-front-front.jpg",
+   "uv": "/mockups/83/lifestyle-3-front-front.png"
+  },
+  {
+   "id": "lifestyle-4-front-front",
+   "label": "Lifestyle 4 · Front",
+   "photo": "/mockups/83/lifestyle-4-front-front.jpg",
+   "uv": "/mockups/83/lifestyle-4-front-front.png"
+  },
+  {
+   "id": "lifestyle-5-front-front",
+   "label": "Lifestyle 5 · Front",
+   "photo": "/mockups/83/lifestyle-5-front-front.jpg",
+   "uv": "/mockups/83/lifestyle-5-front-front.png"
+  },
+  {
+   "id": "lifestyle-front-lifestyle-1-front",
+   "label": "Lifestyle · Front Lifestyle 1",
+   "photo": "/mockups/83/lifestyle-front-lifestyle-1-front.jpg",
+   "uv": "/mockups/83/lifestyle-front-lifestyle-1-front.png"
+  },
+  {
+   "id": "lifestyle-front-lifestyle-2-front",
+   "label": "Lifestyle · Front Lifestyle 2",
+   "photo": "/mockups/83/lifestyle-front-lifestyle-2-front.jpg",
+   "uv": "/mockups/83/lifestyle-front-lifestyle-2-front.png"
+  },
+  {
+   "id": "lifestyle-front-lifestyle-3-front",
+   "label": "Lifestyle · Front Lifestyle 3",
+   "photo": "/mockups/83/lifestyle-front-lifestyle-3-front.jpg",
+   "uv": "/mockups/83/lifestyle-front-lifestyle-3-front.png"
+  },
+  {
+   "id": "lifestyle-front-lifestyle-4-front",
+   "label": "Lifestyle · Front Lifestyle 4",
+   "photo": "/mockups/83/lifestyle-front-lifestyle-4-front.jpg",
+   "uv": "/mockups/83/lifestyle-front-lifestyle-4-front.png"
+  },
+  {
+   "id": "lifestyle-front-lifestyle-5-front",
+   "label": "Lifestyle · Front Lifestyle 5",
+   "photo": "/mockups/83/lifestyle-front-lifestyle-5-front.jpg",
+   "uv": "/mockups/83/lifestyle-front-lifestyle-5-front.png"
+  },
+  {
+   "id": "lifestyle-front-lifestyle-6-front",
+   "label": "Lifestyle · Front Lifestyle 6",
+   "photo": "/mockups/83/lifestyle-front-lifestyle-6-front.jpg",
+   "uv": "/mockups/83/lifestyle-front-lifestyle-6-front.png"
+  },
+  {
+   "id": "lifestyle-back-lifestyle-3-front",
+   "label": "Lifestyle · Back Lifestyle 3",
+   "photo": "/mockups/83/lifestyle-back-lifestyle-3-front.jpg",
+   "uv": "/mockups/83/lifestyle-back-lifestyle-3-front.png"
+  },
+  {
+   "id": "main-back",
+   "label": "Back",
+   "photo": "/mockups/83/main-back.jpg",
+   "uv": "/mockups/83/main-back.png"
+  },
+  {
+   "id": "lifestyle-back-lifestyle-8-back",
+   "label": "Lifestyle · Back Lifestyle 8",
+   "photo": "/mockups/83/lifestyle-back-lifestyle-8-back.jpg",
+   "uv": "/mockups/83/lifestyle-back-lifestyle-8-back.png"
+  },
+  {
+   "id": "lifestyle-2-back-back",
+   "label": "Lifestyle 2 · Back",
+   "photo": "/mockups/83/lifestyle-2-back-back.jpg",
+   "uv": "/mockups/83/lifestyle-2-back-back.png"
+  },
+  {
+   "id": "lifestyle-3-back-back",
+   "label": "Lifestyle 3 · Back",
+   "photo": "/mockups/83/lifestyle-3-back-back.jpg",
+   "uv": "/mockups/83/lifestyle-3-back-back.png"
+  },
+  {
+   "id": "lifestyle-4-back-back",
+   "label": "Lifestyle 4 · Back",
+   "photo": "/mockups/83/lifestyle-4-back-back.jpg",
+   "uv": "/mockups/83/lifestyle-4-back-back.png"
+  },
+  {
+   "id": "lifestyle-5-back-back",
+   "label": "Lifestyle 5 · Back",
+   "photo": "/mockups/83/lifestyle-5-back-back.jpg",
+   "uv": "/mockups/83/lifestyle-5-back-back.png"
+  },
+  {
+   "id": "lifestyle-back-lifestyle-1-back",
+   "label": "Lifestyle · Back Lifestyle 1",
+   "photo": "/mockups/83/lifestyle-back-lifestyle-1-back.jpg",
+   "uv": "/mockups/83/lifestyle-back-lifestyle-1-back.png"
+  },
+  {
+   "id": "lifestyle-back-lifestyle-2-back",
+   "label": "Lifestyle · Back Lifestyle 2",
+   "photo": "/mockups/83/lifestyle-back-lifestyle-2-back.jpg",
+   "uv": "/mockups/83/lifestyle-back-lifestyle-2-back.png"
+  },
+  {
+   "id": "lifestyle-back-lifestyle-4-back",
+   "label": "Lifestyle · Back Lifestyle 4",
+   "photo": "/mockups/83/lifestyle-back-lifestyle-4-back.jpg",
+   "uv": "/mockups/83/lifestyle-back-lifestyle-4-back.png"
+  },
+  {
+   "id": "lifestyle-back-lifestyle-5-back",
+   "label": "Lifestyle · Back Lifestyle 5",
+   "photo": "/mockups/83/lifestyle-back-lifestyle-5-back.jpg",
+   "uv": "/mockups/83/lifestyle-back-lifestyle-5-back.png"
+  },
+  {
+   "id": "lifestyle-back-lifestyle-6-back",
+   "label": "Lifestyle · Back Lifestyle 6",
+   "photo": "/mockups/83/lifestyle-back-lifestyle-6-back.jpg",
+   "uv": "/mockups/83/lifestyle-back-lifestyle-6-back.png"
+  }
+ ]
+}

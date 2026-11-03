@@ -1,0 +1,121 @@
+{
+ "productId": 301,
+ "variantId": 9331,
+ "placements": [
+  {
+   "placement": "front",
+   "index": 1
+  },
+  {
+   "placement": "back",
+   "index": 2
+  },
+  {
+   "placement": "sleeve_left",
+   "index": 3
+  },
+  {
+   "placement": "sleeve_right",
+   "index": 4
+  }
+ ],
+ "markerStep": 24,
+ "views": [
+  {
+   "id": "main-front",
+   "label": "Front",
+   "photo": "/mockups/301/main-front.jpg",
+   "uv": "/mockups/301/main-front.png"
+  },
+  {
+   "id": "on-model-front-front",
+   "label": "On Model · Front",
+   "photo": "/mockups/301/on-model-front-front.jpg",
+   "uv": "/mockups/301/on-model-front-front.png"
+  },
+  {
+   "id": "lifestyle-front-front",
+   "label": "Lifestyle · Front",
+   "photo": "/mockups/301/lifestyle-front-front.jpg",
+   "uv": "/mockups/301/lifestyle-front-front.png"
+  },
+  {
+   "id": "flat-lifestyle-front-front",
+   "label": "Flat Lifestyle · Front",
+   "photo": "/mockups/301/flat-lifestyle-front-front.jpg",
+   "uv": "/mockups/301/flat-lifestyle-front-front.png"
+  },
+  {
+   "id": "flat-lifestyle-back-front",
+   "label": "Flat Lifestyle · Back",
+   "photo": "/mockups/301/flat-lifestyle-back-front.jpg",
+   "uv": "/mockups/301/flat-lifestyle-back-front.png"
+  },
+  {
+   "id": "lifestyle-2-front-front",
+   "label": "Lifestyle 2 · Front",
+   "photo": "/mockups/301/lifestyle-2-front-front.jpg",
+   "uv": "/mockups/301/lifestyle-2-front-front.png"
+  },
+  {
+   "id": "lifestyle-2-back-front",
+   "label": "Lifestyle 2 · Back",
+   "photo": "/mockups/301/lifestyle-2-back-front.jpg",
+   "uv": "/mockups/301/lifestyle-2-back-front.png"
+  },
+  {
+   "id": "flat-front-front",
+   "label": "Flat · Front",
+   "photo": "/mockups/301/flat-front-front.jpg",
+   "uv": "/mockups/301/flat-front-front.png"
+  },
+  {
+   "id": "main-back",
+   "label": "Back",
+   "photo": "/mockups/301/main-back.jpg",
+   "uv": "/mockups/301/main-back.png"
+  },
+  {
+   "id": "on-model-back-back",
+   "label": "On Model · Back",
+   "photo": "/mockups/301/on-model-back-back.jpg",
+   "uv": "/mockups/301/on-model-back-back.png"
+  },
+  {
+   "id": "lifestyle-back-back",
+   "label": "Lifestyle · Back",
+   "photo": "/mockups/301/lifestyle-back-back.jpg",
+   "uv": "/mockups/301/lifestyle-back-back.png"
+  },
+  {
+   "id": "flat-back-back",
+   "label": "Flat · Back",
+   "photo": "/mockups/301/flat-back-back.jpg",
+   "uv": "/mockups/301/flat-back-back.png"
+  },
+  {
+   "id": "main-sleeve-left",
+   "label": "Left",
+   "photo": "/mockups/301/main-sleeve-left.jpg",
+   "uv": "/mockups/301/main-sleeve-left.png"
+  },
+  {
+   "id": "on-model-left-sleeve-left",
+   "label": "On Model · Left",
+   "photo": "/mockups/301/on-model-left-sleeve-left.jpg",
+   "uv": "/mockups/301/on-model-left-sleeve-left.png"
+  },
+  {
+   "id": "main-sleeve-right",
+   "label": "Right",
+   "photo": "/mockups/301/main-sleeve-right.jpg",
+   "uv": "/mockups/301/main-sleeve-right.png"
+  },
+  {
+   "id": "on-model-right-sleeve-right",
+   "label": "On Model · Right",
+   "photo": "/mockups/301/on-model-right-sleeve-right.jpg",
+   "uv": "/mockups/301/on-model-right-sleeve-right.png"
+  }
+ ]
+}

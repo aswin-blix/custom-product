@@ -1,0 +1,37 @@
+{
+ "productId": 1590,
+ "variantId": 51486,
+ "placements": [
+  {
+   "placement": "front_dtfabric",
+   "index": 1
+  },
+  {
+   "placement": "back_dtfabric",
+   "index": 2
+  },
+  {
+   "placement": "sleeve_left_dtfabric",
+   "index": 3
+  },
+  {
+   "placement": "sleeve_right_dtfabric",
+   "index": 4
+  }
+ ],
+ "markerStep": 24,
+ "views": [
+  {
+   "id": "main-front-dtfabric",
+   "label": "front_dtfabric",
+   "photo": "/mockups/1590/main-front-dtfabric.jpg",
+   "uv": "/mockups/1590/main-front-dtfabric.png"
+  },
+  {
+   "id": "flat-back-front-dtfabric",
+   "label": "Flat · Back",
+   "photo": "/mockups/1590/flat-back-front-dtfabric.jpg",
+   "uv": "/mockups/1590/flat-back-front-dtfabric.png"
+  }
+ ]
+}

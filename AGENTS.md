@@ -256,11 +256,18 @@ size `W×zoom, H×zoom`; the template `<img>` covers the wrapper
    white (bare garment/background) decode to "none". `renderPhotoMockup()`
    then samples each design through the map and multiplies by the shading.
    Capture pipeline: `npm run mockup:calibration` (writes
-   `public/calibration/*.png` with each placement's print-file aspect) →
-   deploy so `/calibration` is public → `npm run mockup:capture -- --base
-   <public origin>` (two generator tasks per product: white + calibration)
-   → commit `public/mockups` → redeploy. Re-capture whenever a product's
-   templates change.
+   `public/calibration/*.png` with each placement's print-file aspect; keep
+   them committed) → `npm run mockup:capture -- --base
+   https://raw.githubusercontent.com/<owner>/<repo>/main/public` (the public
+   repo serves the calibration files; two generator tasks per product, white
+   + calibration, requesting every `option_group`/`options` family from
+   `styles.json`; 429s are retried, captured products are skipped unless
+   `--force true`) → commit `public/mockups`. Decoder details: a pixel is
+   "bare product" when the two renders agree (or the PNG is transparent);
+   otherwise `placement = round(B/markerStep)` clamped to the valid range,
+   `u = R/Rwhite`, `v = G/Gwhite`, then a 5×5 box smooth inside each placement
+   recovers precision lost to 8-bit colour, and the design is sampled
+   bilinearly. Re-capture whenever a product's templates change.
 2. **Live Printful Mockup Generator** (opt-in `NEXT_PUBLIC_PRINTFUL_LIVE_MOCKUPS=1`
    + key + `PUBLIC_BASE_URL`): `MockupView` POSTs print files to `/api/prints`
    then `/api/printful/mockups` (create task + poll). Note: `/api/prints`

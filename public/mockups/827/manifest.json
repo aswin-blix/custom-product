@@ -1,0 +1,83 @@
+{
+ "productId": 827,
+ "variantId": 20963,
+ "placements": [
+  {
+   "placement": "front",
+   "index": 1
+  },
+  {
+   "placement": "back",
+   "index": 2
+  },
+  {
+   "placement": "pocket",
+   "index": 3
+  },
+  {
+   "placement": "sleeve_left",
+   "index": 4
+  },
+  {
+   "placement": "sleeve_right",
+   "index": 5
+  }
+ ],
+ "markerStep": 24,
+ "views": [
+  {
+   "id": "main-front",
+   "label": "Front",
+   "photo": "/mockups/827/main-front.jpg",
+   "uv": "/mockups/827/main-front.png"
+  },
+  {
+   "id": "women-s-back-front",
+   "label": "Women's · Back",
+   "photo": "/mockups/827/women-s-back-front.jpg",
+   "uv": "/mockups/827/women-s-back-front.png"
+  },
+  {
+   "id": "women-s-front-2-front",
+   "label": "Women's · Front 2",
+   "photo": "/mockups/827/women-s-front-2-front.jpg",
+   "uv": "/mockups/827/women-s-front-2-front.png"
+  },
+  {
+   "id": "women-s-left-front",
+   "label": "Women's · Left",
+   "photo": "/mockups/827/women-s-left-front.jpg",
+   "uv": "/mockups/827/women-s-left-front.png"
+  },
+  {
+   "id": "women-s-lifestyle-front-front",
+   "label": "Women's Lifestyle · Front",
+   "photo": "/mockups/827/women-s-lifestyle-front-front.jpg",
+   "uv": "/mockups/827/women-s-lifestyle-front-front.png"
+  },
+  {
+   "id": "women-s-lifestyle-2-front-front",
+   "label": "Women's Lifestyle 2 · Front",
+   "photo": "/mockups/827/women-s-lifestyle-2-front-front.jpg",
+   "uv": "/mockups/827/women-s-lifestyle-2-front-front.png"
+  },
+  {
+   "id": "flat-back-front",
+   "label": "Flat · Back",
+   "photo": "/mockups/827/flat-back-front.jpg",
+   "uv": "/mockups/827/flat-back-front.png"
+  },
+  {
+   "id": "flat-front-front",
+   "label": "Flat · Front",
+   "photo": "/mockups/827/flat-front-front.jpg",
+   "uv": "/mockups/827/flat-front-front.png"
+  },
+  {
+   "id": "product-details-product-details-front",
+   "label": "Product details · Product details",
+   "photo": "/mockups/827/product-details-product-details-front.jpg",
+   "uv": "/mockups/827/product-details-product-details-front.png"
+  }
+ ]
+}
