@@ -2,6 +2,7 @@ import "server-only";
 import fs from "node:fs/promises";
 import path from "node:path";
 import type { MockupResult, PfPlacementDims, PfVariant, ProductData, TemplateInfo } from "./types";
+import { SNAPSHOTS } from "./snapshot.generated";
 
 const API = "https://api.printful.com";
 const CACHE_DIR = path.join(process.cwd(), ".cache", "printful");
@@ -122,23 +123,22 @@ interface RawBundle {
   styles: V2Styles;
 }
 
-const SNAPSHOT_DIR = path.join(process.cwd(), "data", "printful");
-
 /**
  * Offline snapshot written by `npm run printful:snapshot` (raw API responses
- * with asset URLs rewritten to /printful/assets/…). Preferred over the API so
- * the app runs with no key and no network.
+ * with asset URLs rewritten to /printful/assets/…) and bundled through static
+ * imports (scripts/gen-snapshot-index.mjs) so it works in serverless bundles.
+ * Preferred over the API so the app runs with no key and no network.
  */
 async function readSnapshot(id: number): Promise<RawBundle | null> {
-  const dir = path.join(SNAPSHOT_DIR, String(id));
-  try {
-    const read = async <T>(name: string): Promise<T> => JSON.parse(await fs.readFile(path.join(dir, name), "utf8")) as T;
-    const [prod, pfs, tpls] = await Promise.all([read<V1Product>("product.json"), read<V1Printfiles>("printfiles.json"), read<V1Templates>("templates.json")]);
-    const styles = await read<V2Styles>("styles.json").catch(() => ({ data: [] }) as V2Styles);
-    return { prod, pfs, tpls, imgs: { data: [] }, styles };
-  } catch {
-    return null;
-  }
+  const s = SNAPSHOTS[id];
+  if (!s) return null;
+  return {
+    prod: s.product as V1Product,
+    pfs: s.printfiles as V1Printfiles,
+    tpls: s.templates as V1Templates,
+    imgs: { data: [] },
+    styles: (s.styles as V2Styles | undefined) ?? { data: [] },
+  };
 }
 
 async function fetchBundle(id: number): Promise<RawBundle> {

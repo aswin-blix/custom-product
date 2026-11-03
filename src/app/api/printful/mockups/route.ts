@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { generateMockups, hasPrintfulKey, PrintfulError, type MockupRequestFile } from "@/lib/printful/server";
 
-export const maxDuration = 120;
+// Vercel Hobby caps functions at 60 s; generation usually finishes in 5–20 s.
+export const maxDuration = 60;
 
 interface Body {
   productId: number;

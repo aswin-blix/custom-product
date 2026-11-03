@@ -1,0 +1,202 @@
+{
+ "83": {
+  "placements": [
+   {
+    "placement": "front",
+    "index": 1,
+    "file": "83-front.png",
+    "printfileId": 1701,
+    "width": 2250,
+    "height": 2250
+   },
+   {
+    "placement": "back",
+    "index": 2,
+    "file": "83-back.png",
+    "printfileId": 1701,
+    "width": 2250,
+    "height": 2250
+   }
+  ]
+ },
+ "301": {
+  "placements": [
+   {
+    "placement": "front",
+    "index": 1,
+    "file": "301-front.png",
+    "printfileId": 94,
+    "width": 4200,
+    "height": 5400
+   },
+   {
+    "placement": "back",
+    "index": 2,
+    "file": "301-back.png",
+    "printfileId": 94,
+    "width": 4200,
+    "height": 5400
+   },
+   {
+    "placement": "sleeve_left",
+    "index": 3,
+    "file": "301-sleeve_left.png",
+    "printfileId": 94,
+    "width": 4200,
+    "height": 5400
+   },
+   {
+    "placement": "sleeve_right",
+    "index": 4,
+    "file": "301-sleeve_right.png",
+    "printfileId": 94,
+    "width": 4200,
+    "height": 5400
+   }
+  ]
+ },
+ "389": {
+  "placements": [
+   {
+    "placement": "front",
+    "index": 1,
+    "file": "389-front.png",
+    "printfileId": 201,
+    "width": 2100,
+    "height": 2850
+   },
+   {
+    "placement": "top",
+    "index": 2,
+    "file": "389-top.png",
+    "printfileId": 202,
+    "width": 4200,
+    "height": 1650
+   },
+   {
+    "placement": "bottom",
+    "index": 3,
+    "file": "389-bottom.png",
+    "printfileId": 203,
+    "width": 4200,
+    "height": 1125
+   }
+  ]
+ },
+ "827": {
+  "placements": [
+   {
+    "placement": "front",
+    "index": 1,
+    "file": "827-front.png",
+    "printfileId": 711,
+    "width": 4500,
+    "height": 5250
+   },
+   {
+    "placement": "back",
+    "index": 2,
+    "file": "827-back.png",
+    "printfileId": 711,
+    "width": 4500,
+    "height": 5250
+   },
+   {
+    "placement": "pocket",
+    "index": 3,
+    "file": "827-pocket.png",
+    "printfileId": 712,
+    "width": 4500,
+    "height": 1500
+   },
+   {
+    "placement": "sleeve_left",
+    "index": 4,
+    "file": "827-sleeve_left.png",
+    "printfileId": 711,
+    "width": 4500,
+    "height": 5250
+   },
+   {
+    "placement": "sleeve_right",
+    "index": 5,
+    "file": "827-sleeve_right.png",
+    "printfileId": 711,
+    "width": 4500,
+    "height": 5250
+   }
+  ]
+ },
+ "1367": {
+  "placements": [
+   {
+    "placement": "front",
+    "index": 1,
+    "file": "1367-front.png",
+    "printfileId": 200,
+    "width": 6000,
+    "height": 6000
+   },
+   {
+    "placement": "back",
+    "index": 2,
+    "file": "1367-back.png",
+    "printfileId": 200,
+    "width": 6000,
+    "height": 6000
+   },
+   {
+    "placement": "sleeve_left",
+    "index": 3,
+    "file": "1367-sleeve_left.png",
+    "printfileId": 536,
+    "width": 6000,
+    "height": 2250
+   },
+   {
+    "placement": "sleeve_right",
+    "index": 4,
+    "file": "1367-sleeve_right.png",
+    "printfileId": 536,
+    "width": 6000,
+    "height": 2250
+   }
+  ]
+ },
+ "1590": {
+  "placements": [
+   {
+    "placement": "front_dtfabric",
+    "index": 1,
+    "file": "1590-front_dtfabric.png",
+    "printfileId": 1954,
+    "width": 6600,
+    "height": 8100
+   },
+   {
+    "placement": "back_dtfabric",
+    "index": 2,
+    "file": "1590-back_dtfabric.png",
+    "printfileId": 1954,
+    "width": 6600,
+    "height": 8100
+   },
+   {
+    "placement": "sleeve_left_dtfabric",
+    "index": 3,
+    "file": "1590-sleeve_left_dtfabric.png",
+    "printfileId": 1954,
+    "width": 6600,
+    "height": 8100
+   },
+   {
+    "placement": "sleeve_right_dtfabric",
+    "index": 4,
+    "file": "1590-sleeve_right_dtfabric.png",
+    "printfileId": 1954,
+    "width": 6600,
+    "height": 8100
+   }
+  ]
+ }
+}

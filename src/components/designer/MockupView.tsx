@@ -5,11 +5,15 @@ import { useDesigner } from "@/store/designer";
 import { usePlacementPreviews } from "./hooks";
 import MockupCanvas from "./MockupCanvas";
 import FlatMockup from "./FlatMockupCanvas";
+import { PhotoMockupCanvas, useDesignSources, useMockupManifest } from "./PhotoMockups";
 import { placementTemplate, variantFor, EXPORT_DPI } from "@/lib/catalog";
 import { getCanvas, exportPrintFile, hasDesign } from "@/lib/engine";
 import type { MockupResult } from "@/lib/printful/types";
 
 type Remote = { state: "idle" } | { state: "loading"; step: string } | { state: "unavailable"; reason: string } | { state: "done"; items: { id: string; label: string; url: string }[] };
+
+/** Live Printful Mockup Generator is opt-in; previews work without it. */
+const LIVE_MOCKUPS = process.env.NEXT_PUBLIC_PRINTFUL_LIVE_MOCKUPS === "1";
 
 export default function MockupView() {
   const product = useDesigner((s) => s.product)!;
@@ -18,12 +22,14 @@ export default function MockupView() {
   const stitch = useDesigner((s) => s.stitch);
   const prints = usePlacementPreviews();
   const variant = variantFor(product, size, color);
+  const manifest = useMockupManifest(product.printfulId);
+  const sources = useDesignSources(manifest, product, prints);
   const [remote, setRemote] = useState<Remote>({ state: "idle" });
   const [sel, setSel] = useState<string>("");
 
-  /* ---- live Printful mockups (needs a public URL for the print files) ---- */
+  /* ---- optional live Printful mockups ---- */
   useEffect(() => {
-    if (!product.live || !variant) return;
+    if (!LIVE_MOCKUPS || !product.live || !variant) return;
     let cancelled = false;
     (async () => {
       setRemote({ state: "loading", step: "Uploading print files…" });
@@ -33,23 +39,15 @@ export default function MockupView() {
         const vp = variant.placements[p.id];
         if (!c || !vp || !hasDesign(c)) continue;
         const res = await fetch("/api/prints", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ dataUrl: exportPrintFile(c) }) });
-        if (res.status === 409) {
-          if (!cancelled) setRemote({ state: "unavailable", reason: "Photo mockups need a public URL (set PUBLIC_BASE_URL). Showing template previews instead." });
-          return;
-        }
         if (!res.ok) {
-          if (!cancelled) setRemote({ state: "unavailable", reason: `Upload failed (${res.status}).` });
+          if (!cancelled) setRemote({ state: "unavailable", reason: res.status === 409 ? "Live mockups need a public URL (PUBLIC_BASE_URL)." : `Upload failed (${res.status}).` });
           return;
         }
         const { url } = (await res.json()) as { url: string };
         files.push({ placement: p.id, imageUrl: url, width: Math.round(vp.widthIn * (vp.dpi ?? EXPORT_DPI)), height: Math.round(vp.heightIn * (vp.dpi ?? EXPORT_DPI)) });
       }
-      if (cancelled) return;
-      if (!files.length) {
-        setRemote({ state: "unavailable", reason: "Add a design first." });
-        return;
-      }
-      setRemote({ state: "loading", step: "Generating mockups…" });
+      if (cancelled || !files.length) return;
+      setRemote({ state: "loading", step: "Generating Printful mockups…" });
       const res = await fetch("/api/printful/mockups", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ productId: product.printfulId, variantId: variant.id, files }) });
       if (cancelled) return;
       if (!res.ok) {
@@ -58,36 +56,40 @@ export default function MockupView() {
         return;
       }
       const data = (await res.json()) as { mockups: MockupResult[] };
-      const items = data.mockups.flatMap((m) => [{ id: `${m.placement}`, label: m.placement, url: m.url }, ...m.extra.map((e, i) => ({ id: `${m.placement}-${i}`, label: e.title, url: e.url }))]);
+      const items = data.mockups.flatMap((m) => [{ id: `live-${m.placement}`, label: m.placement, url: m.url }, ...m.extra.map((e, i) => ({ id: `live-${m.placement}-${i}`, label: e.title, url: e.url }))]);
       setRemote({ state: "done", items });
-      setSel(items[0]?.id ?? "");
     })().catch((e) => !cancelled && setRemote({ state: "unavailable", reason: (e as Error).message }));
     return () => {
       cancelled = true;
     };
-    // regenerate only when the view opens or the variant changes (print files are captured then)
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [product.printfulId, variant?.id]);
 
-  /* ---- template-based previews (always available) ---- */
+  /* ---- template previews (always available) ---- */
   const flat = useMemo(
     () =>
       product.placements
-        .map((p) => ({ id: `flat-${p.id}`, label: p.label, template: placementTemplate(product, p, size, color), print: prints[p.id]?.dataUrl ?? null }))
+        .map((p) => ({ id: `flat-${p.id}`, label: `${p.label} (template)`, template: placementTemplate(product, p, size, color), print: prints[p.id]?.dataUrl ?? null }))
         .filter((x) => !!x.template),
     [product, size, color, prints],
   );
   const blank = useMemo(() => Object.fromEntries(Object.keys(prints).map((k) => [k, { dataUrl: null }])), [prints]);
 
-  const useRemote = remote.state === "done";
-  const list = useRemote ? remote.items : flat.map((f) => ({ id: f.id, label: f.label }));
+  type Item = { id: string; label: string };
+  const photoItems: Item[] = manifest ? manifest.views.map((v) => ({ id: `photo-${v.id}`, label: v.label })) : [];
+  const liveItems: Item[] = remote.state === "done" ? remote.items : [];
+  const list: Item[] = [...photoItems, ...liveItems, ...flat.map((f) => ({ id: f.id, label: f.label }))];
   const current = sel && list.some((l) => l.id === sel) ? sel : list[0]?.id;
 
-  const renderItem = (id: string, className: string) => {
-    if (useRemote) {
+  const render = (id: string, className: string) => {
+    if (manifest && id.startsWith("photo-")) {
+      const view = manifest.views.find((v) => `photo-${v.id}` === id);
+      if (view) return <PhotoMockupCanvas view={view} manifest={manifest} sources={sources} className={className} />;
+    }
+    if (remote.state === "done") {
       const it = remote.items.find((i) => i.id === id);
       // eslint-disable-next-line @next/next/no-img-element
-      return it ? <img src={it.url} alt={it.label} className={className} /> : null;
+      if (it) return <img src={it.url} alt={it.label} className={className} />;
     }
     const f = flat.find((x) => x.id === id);
     if (f) return <FlatMockup template={f.template!} print={f.print} className={className} />;
@@ -107,30 +109,31 @@ export default function MockupView() {
             <Info className="mt-0.5 h-4 w-4 shrink-0 text-gray-500" /> {remote.reason}
           </div>
         )}
+        {manifest === null && photoItems.length === 0 && (
+          <div className="mb-3 flex items-start gap-2 rounded-md bg-gray-100 px-3 py-2 text-[12px] text-gray-700">
+            <Info className="mt-0.5 h-4 w-4 shrink-0 text-gray-500" /> No photo mockups captured for this product yet (run <code className="mx-1">npm run mockup:capture</code>). Showing template previews.
+          </div>
+        )}
         <div className="grid grid-cols-4 gap-3">
           {list.map((it) => (
             <button key={it.id} onClick={() => setSel(it.id)} title={it.label} className={`overflow-hidden rounded-md border bg-[#f3f4f6] ${current === it.id ? "border-gray-900 ring-1 ring-gray-900" : "border-gray-200 hover:border-gray-500"}`}>
-              {renderItem(it.id, "aspect-square w-full object-cover")}
+              {render(it.id, "aspect-square w-full object-cover")}
               <div className="truncate px-1 py-1 text-[10px] text-gray-600">{it.label}</div>
             </button>
           ))}
-          {list.length === 0 && (
-            <>
-              {(["front", "back"] as const).map((v) => (
-                <button key={v} onClick={() => setSel(v)} className={`overflow-hidden rounded-md border bg-[#f3f4f6] ${current === v ? "border-gray-900" : "border-gray-200"}`}>
-                  <MockupCanvas product={product} size={size} view={v} stitch={stitch} prints={prints} className="aspect-[5/6] w-full" />
-                </button>
-              ))}
-            </>
-          )}
+          {list.length === 0 &&
+            (["front", "back"] as const).map((v) => (
+              <button key={v} onClick={() => setSel(v)} className={`overflow-hidden rounded-md border bg-[#f3f4f6] ${current === v ? "border-gray-900" : "border-gray-200"}`}>
+                <MockupCanvas product={product} size={size} view={v} stitch={stitch} prints={prints} className="aspect-[5/6] w-full" />
+              </button>
+            ))}
         </div>
         <div className="mt-4 text-[12px] text-gray-500">
-          {useRemote ? "Mockups generated by the Printful Mockup Generator from your print files." : "Template previews are generated from your print files. "}
-          {product.stitchColors && stitch ? ` Stitch: ${stitch}.` : ""}
+          Previews are rendered locally from your print files{manifest ? " using captured product photos" : ""}.{product.stitchColors && stitch ? ` Stitch: ${stitch}.` : ""}
         </div>
       </div>
       <div className="flex min-w-0 flex-1 items-center justify-center p-6">
-        {current && list.length > 0 ? renderItem(current, "max-h-full max-w-full rounded-md object-contain") : <MockupCanvas product={product} size={size} view={current === "back" ? "back" : "front"} stitch={stitch} prints={prints} className="max-h-full max-w-full rounded-md" />}
+        {current && list.length > 0 ? render(current, "max-h-full max-w-full rounded-md object-contain") : <MockupCanvas product={product} size={size} view={current === "back" ? "back" : "front"} stitch={stitch} prints={prints} className="max-h-full max-w-full rounded-md" />}
       </div>
     </div>
   );

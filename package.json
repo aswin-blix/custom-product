@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "eslint",
     "printful:snapshot": "node scripts/printful-snapshot.mjs",
-    "fonts:fetch": "node scripts/fetch-fonts.mjs"
+    "fonts:fetch": "node scripts/fetch-fonts.mjs",
+    "mockup:calibration": "node scripts/make-calibration.mjs",
+    "mockup:capture": "node scripts/mockup-capture.mjs",
+    "snapshot:index": "node scripts/gen-snapshot-index.mjs"
   },
   "dependencies": {
     "fabric": "^7.4.0",

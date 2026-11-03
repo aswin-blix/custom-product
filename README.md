@@ -33,6 +33,35 @@ The loader prefers the snapshot; the live API is only used for a product that ha
 Generator (a remote renderer) — offline, the Mockups view shows previews built from the
 downloaded templates instead.
 
+## Photo mockups without the API (capture once, render locally)
+
+Printful's photo mockups are reproduced locally with a **displacement map captured once**
+from their generator: a white print gives the garment shading, a calibration print
+(R = u, G = v, B = placement id) gives the exact warp and mask. At runtime the browser samples
+the design through that map — no network, same photos/folds/seams.
+
+```bash
+npm run mockup:calibration                       # public/calibration/*.png (already committed)
+# deploy (or tunnel) so /calibration is public, then:
+npm run mockup:capture -- --base https://your-app.vercel.app   # needs PRINTFUL_API_KEY
+git add public/mockups && git commit -m "Capture photo mockups" && git push   # redeploy
+```
+
+Output: `public/mockups/<id>/{manifest.json, <view>-photo.jpg, <view>-uv.png}` (~4 views per
+product). The Mockups tab shows these first, then template previews. Until a product is
+captured it shows template previews and says so.
+
+Optional live generator (Option A) stays available: set `NEXT_PUBLIC_PRINTFUL_LIVE_MOCKUPS=1`,
+`PRINTFUL_API_KEY` and `PUBLIC_BASE_URL`; it appears after the local previews.
+
+## Deploy to Vercel
+
+The app needs **no environment variables**. Push the repo to GitHub and import it in Vercel
+(framework: Next.js, defaults are fine), or `npx vercel --prod` from the project folder.
+Node 22+ is required. Catalog data is bundled via static imports
+(`src/lib/printful/snapshot.generated.ts`, regenerate with `npm run snapshot:index` after a
+snapshot refresh), so serverless functions never read the filesystem.
+
 ## Printful integration (optional: live catalog + photo mockups)
 
 Create `.env.local` in the project root:

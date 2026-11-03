@@ -235,16 +235,36 @@ size `W×zoom, H×zoom`; the template `<img>` covers the wrapper
 (`pointer-events:none`). Without a template the generated outline from
 `templates.ts` is drawn as an inline SVG instead.
 
-## 9. Mockups
+## 9. Mockups (three tiers, in display order)
 
-- **Photo mockups** (Printful Mockup Generator) need print files reachable by
-  URL. `MockupView` POSTs each print file to `/api/prints` (409 on localhost
-  without `PUBLIC_BASE_URL` → falls back), then POSTs `/api/printful/mockups`
-  which creates a task and polls (~5–15 s). Rate-limited by Printful; don't
-  call it in a loop. This is the only feature that cannot work offline.
-- **Template previews** (`flatMockup.ts`): print file drawn into the print
-  area + template PNG on top. Always available; used offline and in the cart.
-- **Geometry fallback** (`mockup.ts`): only when a product has no template.
+1. **Local photo mockups** (`src/lib/photoMockup.ts`, `PhotoMockups.tsx`) —
+   the default on Vercel, zero API at runtime. Assets per product live in
+   `public/mockups/<id>/`: `manifest.json` (views, placement index order,
+   `markerStep`), `<view>.jpg` (white-print render = shading) and
+   `<view>.png` (calibration render). `decodeDisplacement()` divides the
+   calibration pixels by the white pixels to undo shading and reads
+   `u = R`, `v = G`, `placement = round(B / markerStep)`; pixels that stay
+   white (bare garment/background) decode to "none". `renderPhotoMockup()`
+   then samples each design through the map and multiplies by the shading.
+   Capture pipeline: `npm run mockup:calibration` (writes
+   `public/calibration/*.png` with each placement's print-file aspect) →
+   deploy so `/calibration` is public → `npm run mockup:capture -- --base
+   <public origin>` (two generator tasks per product: white + calibration)
+   → commit `public/mockups` → redeploy. Re-capture whenever a product's
+   templates change.
+2. **Live Printful Mockup Generator** (opt-in `NEXT_PUBLIC_PRINTFUL_LIVE_MOCKUPS=1`
+   + key + `PUBLIC_BASE_URL`): `MockupView` POSTs print files to `/api/prints`
+   then `/api/printful/mockups` (create task + poll). Note: `/api/prints`
+   keeps files in memory + `/tmp`, which is per-instance on serverless; fine
+   for a single server, flaky across lambdas (use a blob store if needed).
+3. **Template previews** (`flatMockup.ts`): print file drawn into the print
+   area + template PNG on top. Always available; used in the cart modal.
+   **Geometry fallback** (`mockup.ts`): only when a product has no template.
+
+The offline catalog snapshot is bundled via static imports
+(`src/lib/printful/snapshot.generated.ts`, regenerate with
+`npm run snapshot:index`) — never read `data/printful` with `fs` at runtime,
+serverless bundles won't include it.
 
 ## 10. Offline snapshot
 
@@ -275,7 +295,9 @@ above is the highest-value next step.
 
 ## 12. Known gaps / ideas
 
-- Photo mockups require a public URL (tunnel or deployment).
+- Photo mockups must be captured once per product (see §9) — until then the
+  Mockups tab shows template previews. 8-bit u/v gives ~1/256 sampling
+  precision; use a 16-bit two-pass calibration if previews look blocky.
 - Premium (stock image) tab is a placeholder.
 - Pattern layers are rasterised tiles; vector-exact pattern export would need
   SVG tiling at export time.
